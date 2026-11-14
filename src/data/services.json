@@ -2,8 +2,9 @@
   "metadata": {
     "salon": "ПРО красоту",
     "source": "https://dikidi.ru/209507?p=1.pi-ssm&o=7",
-    "collectedAt": "2026-11-11T19:29:19.7462593Z",
-    "currency": "BYN"
+    "collectedAt": "2026-11-14T21:49:45.2801078Z",
+    "currency": "BYN",
+    "assetsDirectory": "/assets/dikidi"
   },
   "categories": [
     {
@@ -15,7 +16,7 @@
           "name": "Долговременная укладка бровей без коррекции",
           "serviceValue": "Долговременная укладка бровей без коррекции",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f1.dikidi.net/c11/v10452/52ou095d62.jpg",
+          "image": "/assets/dikidi/service-2463479.jpg",
           "price": "50",
           "cost": "50",
           "currency": "BYN",
@@ -33,14 +34,17 @@
           "category": "Брови и ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/2463479",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3955712"
+          ]
         },
         {
           "id": "13876046",
           "name": "Коррекция/ моделирование бровей+окрашивание бровей от 50 до 60р",
           "serviceValue": "Коррекция/ моделирование бровей+окрашивание бровей от 50 до 60р",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f1.dikidi.net/c11/v10437/5ektkaoc3t.jpg",
+          "image": "/assets/dikidi/service-13876046.jpg",
           "price": "50",
           "cost": "50",
           "currency": "BYN",
@@ -58,14 +62,15 @@
           "category": "Брови и ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/13876046",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "2463475",
           "name": "Коррекция женских бровей (пинцет,воск)",
           "serviceValue": "Коррекция женских бровей (пинцет,воск)",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f1.dikidi.net/c11/v10452/6bjrdm77df.jpg",
+          "image": "/assets/dikidi/service-2463475.jpg",
           "price": "30",
           "cost": "30",
           "currency": "BYN",
@@ -83,14 +88,17 @@
           "category": "Брови и ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/2463475",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3955712"
+          ]
         },
         {
           "id": "8296620",
           "name": "Коррекция мужских бровей (пинцет,воск)",
           "serviceValue": "Коррекция мужских бровей (пинцет,воск)",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f1.dikidi.net/c11/v10452/1bmdb5ce7o.jpg",
+          "image": "/assets/dikidi/service-8296620.jpg",
           "price": "35",
           "cost": "35",
           "currency": "BYN",
@@ -108,14 +116,17 @@
           "category": "Брови и ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/8296620",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3955712"
+          ]
         },
         {
           "id": "20831909",
           "name": "Моделирование бровей (женская) создание новой формы",
           "serviceValue": "Моделирование бровей (женская) создание новой формы",
           "description": "Моделирование бровей (женская) создание новой формы",
-          "image": "https://f2.dikidi.net/c28/v27733/2l8preujr4.jpg",
+          "image": "/assets/dikidi/service-20831909.jpg",
           "price": "35",
           "cost": "35",
           "currency": "BYN",
@@ -133,14 +144,15 @@
           "category": "Брови и ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20831909",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20831917",
           "name": "Моделирование бровей (мужское) создание новой формы",
           "serviceValue": "Моделирование бровей (мужское) создание новой формы",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27733/5fsas940o8.jpg",
+          "image": "/assets/dikidi/service-20831917.jpg",
           "price": "40",
           "cost": "40",
           "currency": "BYN",
@@ -158,14 +170,15 @@
           "category": "Брови и ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20831917",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23300088",
           "name": "Долговременная укладка бровей + окрашивание бровей + коррекция бровей",
           "serviceValue": "Долговременная укладка бровей + окрашивание бровей + коррекция бровей",
           "description": "Долговременная укладка бровей + окрашивание бровей + коррекция бровей",
-          "image": "https://f2.dikidi.net/c28/v27733/65e64tjnt4.jpg",
+          "image": "/assets/dikidi/service-23300088.jpg",
           "price": "100",
           "cost": "100",
           "currency": "BYN",
@@ -183,14 +196,15 @@
           "category": "Брови и ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23300088",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23300058",
           "name": "Долговременная укладка бровей с коррекции бровей",
           "serviceValue": "Долговременная укладка бровей с коррекции бровей",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27733/5otfvqacod.jpg",
+          "image": "/assets/dikidi/service-23300058.jpg",
           "price": "60",
           "cost": "60",
           "currency": "BYN",
@@ -208,14 +222,15 @@
           "category": "Брови и ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23300058",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23300127",
           "name": "Долговременная укладка/ окрашивание бровей/ коррекция бровей / окрашивание ресниц",
           "serviceValue": "Долговременная укладка/ окрашивание бровей/ коррекция бровей / окрашивание ресниц",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27733/7r0l0dite7.jpg",
+          "image": "/assets/dikidi/service-23300127.jpg",
           "price": "120",
           "cost": "120",
           "currency": "BYN",
@@ -233,14 +248,15 @@
           "category": "Брови и ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23300127",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23300657",
           "name": "Ламинирование ресниц + ботокс (женская)",
           "serviceValue": "Ламинирование ресниц + ботокс (женская)",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/14h5hmgrdv.jpg",
+          "image": "/assets/dikidi/service-23300657.jpg",
           "price": "80",
           "cost": "80",
           "currency": "BYN",
@@ -258,14 +274,15 @@
           "category": "Брови и ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23300657",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23300669",
           "name": "Ламинирование ресниц + ботокс (мужской)",
           "serviceValue": "Ламинирование ресниц + ботокс (мужской)",
           "description": "Ламинирование ресниц + ботокс (мужской)",
-          "image": "https://f2.dikidi.net/c28/v27734/5m2978m7d3.jpg",
+          "image": "/assets/dikidi/service-23300669.jpg",
           "price": "90",
           "cost": "90",
           "currency": "BYN",
@@ -283,14 +300,15 @@
           "category": "Брови и ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23300669",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23300632",
           "name": "Ламинирование ресниц + ботокс ресниц + окрашивание ресниц (женская)",
           "serviceValue": "Ламинирование ресниц + ботокс ресниц + окрашивание ресниц (женская)",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/4d67efbtm8.jpg",
+          "image": "/assets/dikidi/service-23300632.jpg",
           "price": "100",
           "cost": "100",
           "currency": "BYN",
@@ -308,14 +326,15 @@
           "category": "Брови и ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23300632",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23300000",
           "name": "Окрашивание ресниц",
           "serviceValue": "Окрашивание ресниц",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27733/7t95143an3.jpg",
+          "image": "/assets/dikidi/service-23300000.jpg",
           "price": "25",
           "cost": "25",
           "currency": "BYN",
@@ -333,14 +352,15 @@
           "category": "Брови и ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23300000",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23300104",
           "name": "Окрашивания бровей + коррекция бровей + окрашивание ресниц",
           "serviceValue": "Окрашивания бровей + коррекция бровей + окрашивание ресниц",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27733/56td4per6q.jpg",
+          "image": "/assets/dikidi/service-23300104.jpg",
           "price": "75",
           "cost": "75",
           "currency": "BYN",
@@ -358,14 +378,15 @@
           "category": "Брови и ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23300104",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23300701",
           "name": "Снятие наращенных ресниц от 20 до 50р цена зависит от количества ресниц и сложности их снятия",
           "serviceValue": "Снятие наращенных ресниц от 20 до 50р цена зависит от количества ресниц и сложности их снятия",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/27q4bleaoe.jpg",
+          "image": "/assets/dikidi/service-23300701.jpg",
           "price": "20",
           "cost": "20",
           "currency": "BYN",
@@ -383,7 +404,8 @@
           "category": "Брови и ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23300701",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         }
       ]
     },
@@ -396,7 +418,7 @@
           "name": "Вечерний макияж от 150 до 200",
           "serviceValue": "Вечерний макияж от 150 до 200",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27742/540e0cio85.jpg",
+          "image": "/assets/dikidi/service-8297992.jpg",
           "price": "150",
           "cost": "150",
           "currency": "BYN",
@@ -414,14 +436,15 @@
           "category": "Визаж",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/8297992",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "8297962",
           "name": "Дневной макияж от 130 до 170",
           "serviceValue": "Дневной макияж от 130 до 170",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27742/7kna973bpo.jpg",
+          "image": "/assets/dikidi/service-8297962.jpg",
           "price": "130",
           "cost": "130",
           "currency": "BYN",
@@ -439,14 +462,15 @@
           "category": "Визаж",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/8297962",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "2463467",
           "name": "Свадебный макияж от 170 до 250",
           "serviceValue": "Свадебный макияж от 170 до 250",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27742/7gfvt07jdt.jpg",
+          "image": "/assets/dikidi/service-2463467.jpg",
           "price": "170",
           "cost": "170",
           "currency": "BYN",
@@ -464,14 +488,17 @@
           "category": "Визаж",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/2463467",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3955712"
+          ]
         },
         {
           "id": "20831897",
           "name": "Экспресс макияж от 100 до 150 руб",
           "serviceValue": "Экспресс макияж от 100 до 150 руб",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27742/cqjbmuskgu.jpg",
+          "image": "/assets/dikidi/service-20831897.jpg",
           "price": "100",
           "cost": "100",
           "currency": "BYN",
@@ -489,7 +516,8 @@
           "category": "Визаж",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20831897",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         }
       ]
     },
@@ -502,7 +530,7 @@
           "name": "Восковая депиляция верхний губы",
           "serviceValue": "Восковая депиляция верхний губы",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/1b5ka324ni.jpg",
+          "image": "/assets/dikidi/service-20848249.jpg",
           "price": "20",
           "cost": "20",
           "currency": "BYN",
@@ -520,14 +548,15 @@
           "category": "Депиляция женская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20848249",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "2463645",
           "name": "Депиляция бикини (глубокое)",
           "serviceValue": "Депиляция бикини (глубокое)",
           "description": "шугаринг",
-          "image": "https://f2.dikidi.net/c28/v27734/7jnovj36gh.jpg",
+          "image": "/assets/dikidi/service-2463645.jpg",
           "price": "60",
           "cost": "60",
           "currency": "BYN",
@@ -535,7 +564,7 @@
           "floatingPrice": false,
           "discount": "0",
           "share": "0",
-          "points": "0.02",
+          "points": "0.03",
           "customSort": 10,
           "icon": {
             "id": "55467273",
@@ -545,14 +574,15 @@
           "category": "Депиляция женская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/2463645",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "2463641",
           "name": "Депиляция бикини (классическое)",
           "serviceValue": "Депиляция бикини (классическое)",
           "description": "шугаринг",
-          "image": "https://f2.dikidi.net/c28/v27734/1j2mk6o17k.jpg",
+          "image": "/assets/dikidi/service-2463641.jpg",
           "price": "50",
           "cost": "50",
           "currency": "BYN",
@@ -570,14 +600,15 @@
           "category": "Депиляция женская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/2463641",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "2463651",
           "name": "Депиляция голени",
           "serviceValue": "Депиляция голени",
           "description": "воск",
-          "image": "https://f2.dikidi.net/c28/v27734/1r9noeb112.jpg",
+          "image": "/assets/dikidi/service-2463651.jpg",
           "price": "50",
           "cost": "50",
           "currency": "BYN",
@@ -595,14 +626,17 @@
           "category": "Депиляция женская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/2463651",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3565367"
+          ]
         },
         {
           "id": "2463579",
           "name": "Депиляция зоны бедра",
           "serviceValue": "Депиляция зоны бедра",
           "description": "воск",
-          "image": "https://f2.dikidi.net/c28/v27734/5tbar5thsb.jpg",
+          "image": "/assets/dikidi/service-2463579.jpg",
           "price": "40",
           "cost": "40",
           "currency": "BYN",
@@ -620,14 +654,17 @@
           "category": "Депиляция женская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/2463579",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3955714"
+          ]
         },
         {
           "id": "2463589",
           "name": "Депиляция зоны ног (полностью)",
           "serviceValue": "Депиляция зоны ног (полностью)",
           "description": "воск",
-          "image": "https://f2.dikidi.net/c28/v27734/7erp58316g.jpg",
+          "image": "/assets/dikidi/service-2463589.jpg",
           "price": "70",
           "cost": "70",
           "currency": "BYN",
@@ -645,14 +682,17 @@
           "category": "Депиляция женская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/2463589",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3955714"
+          ]
         },
         {
           "id": "2463633",
           "name": "Депиляция зоны подмышечных впадины",
           "serviceValue": "Депиляция зоны подмышечных впадины",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/681m0e586n.jpg",
+          "image": "/assets/dikidi/service-2463633.jpg",
           "price": "30",
           "cost": "30",
           "currency": "BYN",
@@ -670,14 +710,18 @@
           "category": "Депиляция женская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/2463633",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3565367",
+            "3955714"
+          ]
         },
         {
           "id": "2463555",
           "name": "Депиляция зоны рук ( до локтя)",
           "serviceValue": "Депиляция зоны рук ( до локтя)",
           "description": "воск",
-          "image": "https://f2.dikidi.net/c28/v27734/3apm9bc400.jpg",
+          "image": "/assets/dikidi/service-2463555.jpg",
           "price": "40",
           "cost": "40",
           "currency": "BYN",
@@ -695,14 +739,17 @@
           "category": "Депиляция женская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/2463555",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3955714"
+          ]
         },
         {
           "id": "2463557",
           "name": "Депиляция зоны рук (полностью)",
           "serviceValue": "Депиляция зоны рук (полностью)",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/nc8vj8no1v.jpg",
+          "image": "/assets/dikidi/service-2463557.jpg",
           "price": "50",
           "cost": "50",
           "currency": "BYN",
@@ -720,14 +767,17 @@
           "category": "Депиляция женская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/2463557",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3955714"
+          ]
         },
         {
           "id": "20848232",
           "name": "Депиляция носа",
           "serviceValue": "Депиляция носа",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/7ugtr94lna.jpg",
+          "image": "/assets/dikidi/service-20848232.jpg",
           "price": "20",
           "cost": "20",
           "currency": "BYN",
@@ -745,14 +795,15 @@
           "category": "Депиляция женская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20848232",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20848258",
           "name": "Депиляция подбородок",
           "serviceValue": "Депиляция подбородок",
           "description": "Депиляция подбородок",
-          "image": "https://f2.dikidi.net/c28/v27734/69k5jhohn9.jpg",
+          "image": "/assets/dikidi/service-20848258.jpg",
           "price": "20",
           "cost": "20",
           "currency": "BYN",
@@ -770,14 +821,15 @@
           "category": "Депиляция женская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20848258",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23300946",
           "name": "1 зона лица(уши, нос, подбородок, щеки)",
           "serviceValue": "1 зона лица(уши, нос, подбородок, щеки)",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/2e6brrehu6.jpg",
+          "image": "/assets/dikidi/service-23300946.jpg",
           "price": "20",
           "cost": "20",
           "currency": "BYN",
@@ -795,7 +847,8 @@
           "category": "Депиляция женская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23300946",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         }
       ]
     },
@@ -826,7 +879,10 @@
           "category": "Депиляция мужская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/2463677",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3565367"
+          ]
         },
         {
           "id": "18805074",
@@ -851,7 +907,10 @@
           "category": "Депиляция мужская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/18805074",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3565367"
+          ]
         },
         {
           "id": "2463667",
@@ -876,7 +935,8 @@
           "category": "Депиляция мужская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/2463667",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "2463661",
@@ -901,7 +961,8 @@
           "category": "Депиляция мужская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/2463661",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "2463609",
@@ -926,7 +987,10 @@
           "category": "Депиляция мужская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/2463609",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3565367"
+          ]
         },
         {
           "id": "2463623",
@@ -951,7 +1015,8 @@
           "category": "Депиляция мужская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/2463623",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "2463669",
@@ -976,7 +1041,8 @@
           "category": "Депиляция мужская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/2463669",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23301066",
@@ -1001,7 +1067,8 @@
           "category": "Депиляция мужская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23301066",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23301073",
@@ -1026,7 +1093,8 @@
           "category": "Депиляция мужская",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23301073",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         }
       ]
     },
@@ -1039,7 +1107,7 @@
           "name": "Вечерняя причёска ( с мытье головы) цена зависит от длины, густоты и сложности прически волос от 100-300",
           "serviceValue": "Вечерняя причёска ( с мытье головы) цена зависит от длины, густоты и сложности прически волос от 100-300",
           "description": "Окончательная стоимость только после консультации с мастером. Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27849/4dfqn3t1qm.jpg",
+          "image": "/assets/dikidi/service-1407433.jpg",
           "price": "100",
           "cost": "100",
           "currency": "BYN",
@@ -1057,14 +1125,15 @@
           "category": "Женские прически и укладка",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/1407433",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23370353",
           "name": "Вечерняя причёска ( без мытье головы) цена зависит от длины, густоты и сложности прически волос от 100-250",
           "serviceValue": "Вечерняя причёска ( без мытье головы) цена зависит от длины, густоты и сложности прически волос от 100-250",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27849/5nmgvoclej.jpg",
+          "image": "/assets/dikidi/service-23370353.jpg",
           "price": "100",
           "cost": "100",
           "currency": "BYN",
@@ -1082,14 +1151,15 @@
           "category": "Женские прически и укладка",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23370353",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23370777",
           "name": "Детские укладки или прически для девочек цена на 10 руб меньше, чем у взрослых",
           "serviceValue": "Детские укладки или прически для девочек цена на 10 руб меньше, чем у взрослых",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27850/5fgv7ggvef.jpg",
+          "image": "/assets/dikidi/service-23370777.jpg",
           "price": "50",
           "cost": "50",
           "currency": "BYN",
@@ -1107,14 +1177,15 @@
           "category": "Женские прически и укладка",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23370777",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23370730",
           "name": "Консультация специалиста парикмахера",
           "serviceValue": "Консультация специалиста парикмахера",
           "description": "Консультация специалиста парикмахера",
-          "image": "https://f2.dikidi.net/c28/v27849/7tg5rf25h0.jpg",
+          "image": "/assets/dikidi/service-23370730.jpg",
           "price": "30",
           "cost": "30",
           "currency": "BYN",
@@ -1132,14 +1203,15 @@
           "category": "Женские прически и укладка",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23370730",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23370311",
           "name": "Торжественная укладка (без мытья) Цена зависит от длинны, густоты и сложности укладки от 80-200 руб",
           "serviceValue": "Торжественная укладка (без мытья) Цена зависит от длинны, густоты и сложности укладки от 80-200 руб",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27849/7t6hlatl57.jpg",
+          "image": "/assets/dikidi/service-23370311.jpg",
           "price": "80",
           "cost": "80",
           "currency": "BYN",
@@ -1157,14 +1229,15 @@
           "category": "Женские прически и укладка",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23370311",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23370192",
           "name": "Укладка феном по форме стрижки под брашинг (цена завит от длинны, густоты и сложности укладки) цена 50 -150 р",
           "serviceValue": "Укладка феном по форме стрижки под брашинг (цена завит от длинны, густоты и сложности укладки) цена 50 -150 р",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27849/2hbomcjfqk.jpg",
+          "image": "/assets/dikidi/service-23370192.jpg",
           "price": "50",
           "cost": "50",
           "currency": "BYN",
@@ -1182,14 +1255,15 @@
           "category": "Женские прически и укладка",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23370192",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23370248",
           "name": "Укладка феном по форме стрижки под брашинг + плойка «гафре» + утюжок (цена завит от длинны, густоты и сложности укладки) цена 80 -250 руб",
           "serviceValue": "Укладка феном по форме стрижки под брашинг + плойка «гафре» + утюжок (цена завит от длинны, густоты и сложности укладки) цена 80 -250 руб",
           "description": "Укладка феном по форме стрижки под брашинг + плойка «гафре» + утюжок (цена завит от длинны, густоты и сложности укладки) цена 80 -250 руб",
-          "image": "https://f2.dikidi.net/c28/v27849/1ffsusb8l8.jpg",
+          "image": "/assets/dikidi/service-23370248.jpg",
           "price": "80",
           "cost": "80",
           "currency": "BYN",
@@ -1207,7 +1281,8 @@
           "category": "Женские прически и укладка",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23370248",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         }
       ]
     },
@@ -1220,7 +1295,7 @@
           "name": "Смена образа ( с мытьем) от 100 до 150",
           "serviceValue": "Смена образа ( с мытьем) от 100 до 150",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c27/v26009/a6srbj15ma.jpg",
+          "image": "/assets/dikidi/service-20814235.jpg",
           "price": "100",
           "cost": "100",
           "currency": "BYN",
@@ -1238,14 +1313,15 @@
           "category": "Женские стрижки и стрижки для девочек до 10 лет",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20814235",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "1407327",
           "name": "Стрижка женская модельная длинные с мытьем от 90 до 120 руб",
           "serviceValue": "Стрижка женская модельная длинные с мытьем от 90 до 120 руб",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c27/v26009/3uiunrfhq9.jpg",
+          "image": "/assets/dikidi/service-1407327.jpg",
           "price": "90",
           "cost": "90",
           "currency": "BYN",
@@ -1263,14 +1339,19 @@
           "category": "Женские стрижки и стрижки для девочек до 10 лет",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/1407327",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3946639",
+            "3965187",
+            "4084727"
+          ]
         },
         {
           "id": "1407319",
           "name": "Стрижка женская модельная короткие волосы с мытьем от 60 до 70руб",
           "serviceValue": "Стрижка женская модельная короткие волосы с мытьем от 60 до 70руб",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c27/v26009/6aiu6pl8o5.jpg",
+          "image": "/assets/dikidi/service-1407319.jpg",
           "price": "60",
           "cost": "60",
           "currency": "BYN",
@@ -1278,7 +1359,7 @@
           "floatingPrice": true,
           "discount": "0",
           "share": "0",
-          "points": "0.66",
+          "points": "0.67",
           "customSort": 7,
           "icon": {
             "id": "52017651",
@@ -1288,14 +1369,19 @@
           "category": "Женские стрижки и стрижки для девочек до 10 лет",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/1407319",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3946639",
+            "3965187",
+            "4084727"
+          ]
         },
         {
           "id": "1407329",
           "name": "Стрижка женская модельная очень длинные волосы от 100 до 150 руб цена меняется от густоты волос",
           "serviceValue": "Стрижка женская модельная очень длинные волосы от 100 до 150 руб цена меняется от густоты волос",
           "description": "Комплекс с мытьём и сушкой включён в стоимость",
-          "image": "https://f2.dikidi.net/c27/v26009/6nfg18k88a.jpg",
+          "image": "/assets/dikidi/service-1407329.jpg",
           "price": "100",
           "cost": "100",
           "currency": "BYN",
@@ -1313,14 +1399,15 @@
           "category": "Женские стрижки и стрижки для девочек до 10 лет",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/1407329",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "1407321",
           "name": "Стрижка женская модельная средней длинны от 70 до 80 руб",
           "serviceValue": "Стрижка женская модельная средней длинны от 70 до 80 руб",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c27/v26009/15j9fv91e3.jpg",
+          "image": "/assets/dikidi/service-1407321.jpg",
           "price": "70",
           "cost": "70",
           "currency": "BYN",
@@ -1328,7 +1415,7 @@
           "floatingPrice": true,
           "discount": "0",
           "share": "0",
-          "points": "14.21",
+          "points": "14.24",
           "customSort": 5,
           "icon": {
             "id": "52017708",
@@ -1338,14 +1425,19 @@
           "category": "Женские стрижки и стрижки для девочек до 10 лет",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/1407321",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3946639",
+            "3965187",
+            "4084727"
+          ]
         },
         {
           "id": "1407317",
           "name": "Стрижка женская одним срезом(подравнивание) без мытья, услуга осуществления, только на вымытые и уложенные волосы от 50 до 60 руб",
           "serviceValue": "Стрижка женская одним срезом(подравнивание) без мытья, услуга осуществления, только на вымытые и уложенные волосы от 50 до 60 руб",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27847/2jp47vqj79.jpg",
+          "image": "/assets/dikidi/service-1407317.jpg",
           "price": "50",
           "cost": "50",
           "currency": "BYN",
@@ -1363,14 +1455,19 @@
           "category": "Женские стрижки и стрижки для девочек до 10 лет",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/1407317",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3946639",
+            "3965187",
+            "4084727"
+          ]
         },
         {
           "id": "1407303",
           "name": "Стрижка челки (коррекция) от 30 до 40 (без мытья и с мытьем)",
           "serviceValue": "Стрижка челки (коррекция) от 30 до 40 (без мытья и с мытьем)",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27847/6clskjmlss.jpg",
+          "image": "/assets/dikidi/service-1407303.jpg",
           "price": "30",
           "cost": "30",
           "currency": "BYN",
@@ -1388,14 +1485,19 @@
           "category": "Женские стрижки и стрижки для девочек до 10 лет",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/1407303",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3946639",
+            "3965187",
+            "4084727"
+          ]
         },
         {
           "id": "20814163",
           "name": "Термострижка с мытьем ( комплекс) цена зависит от длины и густоты волос от 100 до 200 руб",
           "serviceValue": "Термострижка с мытьем ( комплекс) цена зависит от длины и густоты волос от 100 до 200 руб",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27847/60ru3dl90i.jpg",
+          "image": "/assets/dikidi/service-20814163.jpg",
           "price": "100",
           "cost": "100",
           "currency": "BYN",
@@ -1413,14 +1515,15 @@
           "category": "Женские стрижки и стрижки для девочек до 10 лет",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20814163",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "18278507",
           "name": "Челка моделирование создания новой челки от 40 до 50 руб",
           "serviceValue": "Челка моделирование создания новой челки от 40 до 50 руб",
           "description": "Челка моделирование создания новой челки от 40 до 50 руб",
-          "image": "https://f2.dikidi.net/c28/v27847/64vqhs2olg.jpg",
+          "image": "/assets/dikidi/service-18278507.jpg",
           "price": "40",
           "cost": "40",
           "currency": "BYN",
@@ -1438,14 +1541,15 @@
           "category": "Женские стрижки и стрижки для девочек до 10 лет",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/18278507",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23369334",
           "name": "Консультация специалиста парикмахера",
           "serviceValue": "Консультация специалиста парикмахера",
           "description": "Консультация проходит платно, если вы не делаете в дальнейшим услугу, если услуга после консультации будет осуществляться услуга бесплатно",
-          "image": "https://f2.dikidi.net/c28/v27847/6c1r3vcnng.jpg",
+          "image": "/assets/dikidi/service-23369334.jpg",
           "price": "30",
           "cost": "30",
           "currency": "BYN",
@@ -1463,14 +1567,15 @@
           "category": "Женские стрижки и стрижки для девочек до 10 лет",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23369334",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23373893",
           "name": "Стрижка детская для девочек до 10 лет (цена на 10 р ниже всех женских стрижек) зависит от длины и густоты волос",
           "serviceValue": "Стрижка детская для девочек до 10 лет (цена на 10 р ниже всех женских стрижек) зависит от длины и густоты волос",
           "description": "Стрижка детская для девочек до 10 лет (цена на 10 р ниже всех женских стрижек) зависит от длины и густоты волос",
-          "image": "https://f2.dikidi.net/c28/v27855/12h4omtmm4.jpg",
+          "image": "/assets/dikidi/service-23373893.jpg",
           "price": "40",
           "cost": "40",
           "currency": "BYN",
@@ -1488,14 +1593,15 @@
           "category": "Женские стрижки и стрижки для девочек до 10 лет",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23373893",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "22391155",
           "name": "Стрижка женская под машинку (с мытьем головы) от 50 -60 руб",
           "serviceValue": "Стрижка женская под машинку (с мытьем головы) от 50 -60 руб",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27847/2ss33l3nve.jpg",
+          "image": "/assets/dikidi/service-22391155.jpg",
           "price": "50",
           "cost": "50",
           "currency": "BYN",
@@ -1513,7 +1619,8 @@
           "category": "Женские стрижки и стрижки для девочек до 10 лет",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/22391155",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         }
       ]
     },
@@ -1544,7 +1651,8 @@
           "category": "Косметология (уходы и массаж лица)",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15333192",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "15333166",
@@ -1569,7 +1677,8 @@
           "category": "Косметология (уходы и массаж лица)",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15333166",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "15333136",
@@ -1594,7 +1703,10 @@
           "category": "Косметология (уходы и массаж лица)",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15333136",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "1254601"
+          ]
         },
         {
           "id": "15333182",
@@ -1619,7 +1731,8 @@
           "category": "Косметология (уходы и массаж лица)",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15333182",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "15333100",
@@ -1644,7 +1757,10 @@
           "category": "Косметология (уходы и массаж лица)",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15333100",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "1254601"
+          ]
         },
         {
           "id": "15333248",
@@ -1669,7 +1785,8 @@
           "category": "Косметология (уходы и массаж лица)",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15333248",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "15333226",
@@ -1694,7 +1811,8 @@
           "category": "Косметология (уходы и массаж лица)",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15333226",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "15333176",
@@ -1719,7 +1837,8 @@
           "category": "Косметология (уходы и массаж лица)",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15333176",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "15333206",
@@ -1744,7 +1863,8 @@
           "category": "Косметология (уходы и массаж лица)",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15333206",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "15333066",
@@ -1769,7 +1889,10 @@
           "category": "Косметология (уходы и массаж лица)",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15333066",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "1254601"
+          ]
         },
         {
           "id": "15333152",
@@ -1794,7 +1917,8 @@
           "category": "Косметология (уходы и массаж лица)",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15333152",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23520937",
@@ -1819,7 +1943,8 @@
           "category": "Косметология (уходы и массаж лица)",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23520937",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23520853",
@@ -1844,7 +1969,8 @@
           "category": "Косметология (уходы и массаж лица)",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23520853",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23520902",
@@ -1869,7 +1995,8 @@
           "category": "Косметология (уходы и массаж лица)",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23520902",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         }
       ]
     },
@@ -1900,7 +2027,8 @@
           "category": "Маникюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15188272",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "15188180",
@@ -1915,7 +2043,7 @@
           "floatingPrice": false,
           "discount": "0",
           "share": "0",
-          "points": "2.66",
+          "points": "2.67",
           "customSort": 14,
           "icon": {
             "id": "",
@@ -1925,7 +2053,10 @@
           "category": "Маникюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15188180",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3958433"
+          ]
         },
         {
           "id": "15188270",
@@ -1950,7 +2081,8 @@
           "category": "Маникюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15188270",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "15188186",
@@ -1965,7 +2097,7 @@
           "floatingPrice": false,
           "discount": "0",
           "share": "0",
-          "points": "0.35",
+          "points": "0.36",
           "customSort": 12,
           "icon": {
             "id": "",
@@ -1975,7 +2107,10 @@
           "category": "Маникюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15188186",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3958433"
+          ]
         },
         {
           "id": "15188252",
@@ -1990,7 +2125,7 @@
           "floatingPrice": true,
           "discount": "0",
           "share": "0",
-          "points": "8.56",
+          "points": "8.57",
           "customSort": 11,
           "icon": {
             "id": "",
@@ -2000,7 +2135,10 @@
           "category": "Маникюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15188252",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3958433"
+          ]
         },
         {
           "id": "15188256",
@@ -2015,7 +2153,7 @@
           "floatingPrice": true,
           "discount": "0",
           "share": "0",
-          "points": "1.67",
+          "points": "1.68",
           "customSort": 10,
           "icon": {
             "id": "",
@@ -2025,7 +2163,10 @@
           "category": "Маникюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15188256",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3958433"
+          ]
         },
         {
           "id": "15188164",
@@ -2050,7 +2191,10 @@
           "category": "Маникюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15188164",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3958433"
+          ]
         },
         {
           "id": "18267846",
@@ -2075,7 +2219,8 @@
           "category": "Маникюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/18267846",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "15188262",
@@ -2100,7 +2245,8 @@
           "category": "Маникюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15188262",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "15188320",
@@ -2125,7 +2271,8 @@
           "category": "Маникюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15188320",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "15188302",
@@ -2150,7 +2297,8 @@
           "category": "Маникюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15188302",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "15188314",
@@ -2175,7 +2323,8 @@
           "category": "Маникюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15188314",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "15188280",
@@ -2200,7 +2349,8 @@
           "category": "Маникюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15188280",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20379666",
@@ -2225,7 +2375,8 @@
           "category": "Маникюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20379666",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20891129",
@@ -2250,7 +2401,8 @@
           "category": "Маникюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20891129",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         }
       ]
     },
@@ -2263,7 +2415,7 @@
           "name": "Массаж мужской (любой сложности) 30 мин",
           "serviceValue": "Массаж мужской (любой сложности) 30 мин",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/3j0hjecbbo.jpg",
+          "image": "/assets/dikidi/service-18797716.jpg",
           "price": "60",
           "cost": "60",
           "currency": "BYN",
@@ -2281,14 +2433,19 @@
           "category": "Массаж",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/18797716",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3955715",
+            "4311212",
+            "4362666"
+          ]
         },
         {
           "id": "20808190",
           "name": "Массаж мужской (любой сложности) - 60 мин",
           "serviceValue": "Массаж мужской (любой сложности) - 60 мин",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/3h7807rdfe.jpg",
+          "image": "/assets/dikidi/service-20808190.jpg",
           "price": "90",
           "cost": "90",
           "currency": "BYN",
@@ -2306,14 +2463,15 @@
           "category": "Массаж",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20808190",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "18636970",
           "name": "Массаж женский (любой сложности)-30 мин",
           "serviceValue": "Массаж женский (любой сложности)-30 мин",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/228d5a2pea.jpg",
+          "image": "/assets/dikidi/service-18636970.jpg",
           "price": "50",
           "cost": "50",
           "currency": "BYN",
@@ -2331,14 +2489,19 @@
           "category": "Массаж",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/18636970",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3955715",
+            "4311212",
+            "4362666"
+          ]
         },
         {
           "id": "18797835",
           "name": "Массаж мужской (любой сложности) -1 час 30 мин",
           "serviceValue": "Массаж мужской (любой сложности) -1 час 30 мин",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/6bhlmgbr3l.jpg",
+          "image": "/assets/dikidi/service-18797835.jpg",
           "price": "140",
           "cost": "140",
           "currency": "BYN",
@@ -2356,14 +2519,19 @@
           "category": "Массаж",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/18797835",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3955715",
+            "4311212",
+            "4362666"
+          ]
         },
         {
           "id": "18637014",
           "name": "Массаж женский (любой сложности) -1 час 30 мин",
           "serviceValue": "Массаж женский (любой сложности) -1 час 30 мин",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/702n8jbj33.jpg",
+          "image": "/assets/dikidi/service-18637014.jpg",
           "price": "130",
           "cost": "130",
           "currency": "BYN",
@@ -2381,14 +2549,19 @@
           "category": "Массаж",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/18637014",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3955715",
+            "4311212",
+            "4362666"
+          ]
         },
         {
           "id": "18636996",
           "name": "Массаж женский (любой сложности) - 60мин",
           "serviceValue": "Массаж женский (любой сложности) - 60мин",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/4nsg2pojdr.jpg",
+          "image": "/assets/dikidi/service-18636996.jpg",
           "price": "80",
           "cost": "80",
           "currency": "BYN",
@@ -2406,14 +2579,19 @@
           "category": "Массаж",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/18636996",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3955715",
+            "4311212",
+            "4362666"
+          ]
         },
         {
           "id": "22286150",
           "name": "Массаж женский (любой сложности) -120 мин Цена 150 р",
           "serviceValue": "Массаж женский (любой сложности) -120 мин Цена 150 р",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/1q32u34ec0.jpg",
+          "image": "/assets/dikidi/service-22286150.jpg",
           "price": "150",
           "cost": "150",
           "currency": "BYN",
@@ -2431,14 +2609,15 @@
           "category": "Массаж",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/22286150",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "22279478",
           "name": "Массаж мужской (любой сложности) -45 мин",
           "serviceValue": "Массаж мужской (любой сложности) -45 мин",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/7sqeq4umtm.jpg",
+          "image": "/assets/dikidi/service-22279478.jpg",
           "price": "80",
           "cost": "80",
           "currency": "BYN",
@@ -2456,7 +2635,8 @@
           "category": "Массаж",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/22279478",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         }
       ]
     },
@@ -2469,7 +2649,7 @@
           "name": "Мужская модельная удлиненная стрижка (с мытье) от 60-70руб",
           "serviceValue": "Мужская модельная удлиненная стрижка (с мытье) от 60-70руб",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27742/6o7sgip7o2.jpg",
+          "image": "/assets/dikidi/service-20838152.jpg",
           "price": "60",
           "cost": "60",
           "currency": "BYN",
@@ -2487,14 +2667,15 @@
           "category": "Мужской зал",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20838152",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20837986",
           "name": "Мужская модельная стрижка (с мытье головы) от 50 до 60 руб",
           "serviceValue": "Мужская модельная стрижка (с мытье головы) от 50 до 60 руб",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27742/47me1jmk4l.jpg",
+          "image": "/assets/dikidi/service-20837986.jpg",
           "price": "50",
           "cost": "50",
           "currency": "BYN",
@@ -2512,14 +2693,15 @@
           "category": "Мужской зал",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20837986",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20837966",
           "name": "Мужские стрижки под насадки (с мытье)",
           "serviceValue": "Мужские стрижки под насадки (с мытье)",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27742/38v7lnjusk.jpg",
+          "image": "/assets/dikidi/service-20837966.jpg",
           "price": "50",
           "cost": "50",
           "currency": "BYN",
@@ -2537,14 +2719,15 @@
           "category": "Мужской зал",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20837966",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23305508",
           "name": "Комуфлирование бороды и усов цена от 40- 100 руб (цена зависит от длинны бороды) без материала",
           "serviceValue": "Комуфлирование бороды и усов цена от 40- 100 руб (цена зависит от длинны бороды) без материала",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27743/5jpp39s4jt.jpg",
+          "image": "/assets/dikidi/service-23305508.jpg",
           "price": "40",
           "cost": "40",
           "currency": "BYN",
@@ -2562,14 +2745,15 @@
           "category": "Мужской зал",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23305508",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23305450",
           "name": "Комуфлирование седины работа мастера ( без материала) от 50- 150р (цена зависит от длины волос)",
           "serviceValue": "Комуфлирование седины работа мастера ( без материала) от 50- 150р (цена зависит от длины волос)",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27743/2812cblujt.jpg",
+          "image": "/assets/dikidi/service-23305450.jpg",
           "price": "50",
           "cost": "50",
           "currency": "BYN",
@@ -2587,14 +2771,15 @@
           "category": "Мужской зал",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23305450",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23305335",
           "name": "Мужская стрижка длинный волос от 80-90 руб (с мытье головы)",
           "serviceValue": "Мужская стрижка длинный волос от 80-90 руб (с мытье головы)",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27742/2cjq6tea8m.jpg",
+          "image": "/assets/dikidi/service-23305335.jpg",
           "price": "80",
           "cost": "80",
           "currency": "BYN",
@@ -2612,14 +2797,15 @@
           "category": "Мужской зал",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23305335",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23305290",
           "name": "Мужская стрижка средняя длина (с мытьем головы) от 70-80 руб",
           "serviceValue": "Мужская стрижка средняя длина (с мытьем головы) от 70-80 руб",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27742/6e8lv7lkvb.jpg",
+          "image": "/assets/dikidi/service-23305290.jpg",
           "price": "70",
           "cost": "70",
           "currency": "BYN",
@@ -2637,14 +2823,15 @@
           "category": "Мужской зал",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23305290",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23305390",
           "name": "Стрижка бороды от 30-50 руб (цена зависит от длины бороды)",
           "serviceValue": "Стрижка бороды от 30-50 руб (цена зависит от длины бороды)",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27742/2epug639lm.jpg",
+          "image": "/assets/dikidi/service-23305390.jpg",
           "price": "30",
           "cost": "30",
           "currency": "BYN",
@@ -2662,14 +2849,15 @@
           "category": "Мужской зал",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23305390",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23305693",
           "name": "Цена красителя для комуфлирование седины от 1 до 3 р за 1 г. цена оксида 0,20 коп за 1 г. (краситель подбирается индивидуально от типа седины и волос",
           "serviceValue": "Цена красителя для комуфлирование седины от 1 до 3 р за 1 г. цена оксида 0,20 коп за 1 г. (краситель подбирается индивидуально от типа седины и волос",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27743/3lpnfkdb9n.jpg",
+          "image": "/assets/dikidi/service-23305693.jpg",
           "price": "1",
           "cost": "1",
           "currency": "BYN",
@@ -2687,7 +2875,8 @@
           "category": "Мужской зал",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23305693",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         }
       ]
     },
@@ -2700,7 +2889,7 @@
           "name": "Наращивание ресниц (снятие ресниц в цену не входит)",
           "serviceValue": "Наращивание ресниц (снятие ресниц в цену не входит)",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/7elglnqm98.jpg",
+          "image": "/assets/dikidi/service-20246350.jpg",
           "price": "80",
           "cost": "80",
           "currency": "BYN",
@@ -2718,14 +2907,15 @@
           "category": "Наращивание ресниц",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20246350",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "17008116",
           "name": "Наращивание ресниц 1.5D (снятие наращивание ресниц в цену не входит)",
           "serviceValue": "Наращивание ресниц 1.5D (снятие наращивание ресниц в цену не входит)",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/5h2h74k98s.jpg",
+          "image": "/assets/dikidi/service-17008116.jpg",
           "price": "90",
           "cost": "90",
           "currency": "BYN",
@@ -2743,14 +2933,17 @@
           "category": "Наращивание ресниц",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/17008116",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3806026"
+          ]
         },
         {
           "id": "18267745",
           "name": "Наращивание ресниц 2.5D (снятие наращивание ресниц в цену не входит)",
           "serviceValue": "Наращивание ресниц 2.5D (снятие наращивание ресниц в цену не входит)",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/547a1plmi1.jpg",
+          "image": "/assets/dikidi/service-18267745.jpg",
           "price": "110",
           "cost": "110",
           "currency": "BYN",
@@ -2768,14 +2961,15 @@
           "category": "Наращивание ресниц",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/18267745",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "18267719",
           "name": "Наращивание ресниц 2D (в цену снятия нарощенных ресниц не входит)",
           "serviceValue": "Наращивание ресниц 2D (в цену снятия нарощенных ресниц не входит)",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/3spthb6tko.jpg",
+          "image": "/assets/dikidi/service-18267719.jpg",
           "price": "100",
           "cost": "100",
           "currency": "BYN",
@@ -2793,14 +2987,15 @@
           "category": "Наращивание ресниц",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/18267719",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "18267757",
           "name": "Наращивание ресниц 3.5D (снятие наращенных ресниц не входит)",
           "serviceValue": "Наращивание ресниц 3.5D (снятие наращенных ресниц не входит)",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/5o2ef2ves2.jpg",
+          "image": "/assets/dikidi/service-18267757.jpg",
           "price": "130",
           "cost": "130",
           "currency": "BYN",
@@ -2818,14 +3013,15 @@
           "category": "Наращивание ресниц",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/18267757",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "17008121",
           "name": "Наращивание ресниц 3D (в цену снятие нарощенных ресниц не входит)",
           "serviceValue": "Наращивание ресниц 3D (в цену снятие нарощенных ресниц не входит)",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/2fq8t5geme.jpg",
+          "image": "/assets/dikidi/service-17008121.jpg",
           "price": "120",
           "cost": "120",
           "currency": "BYN",
@@ -2843,14 +3039,17 @@
           "category": "Наращивание ресниц",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/17008121",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3806026"
+          ]
         },
         {
           "id": "17008125",
           "name": "Наращивание ресниц 4D (снятие нарощенных ресниц не входит)",
           "serviceValue": "Наращивание ресниц 4D (снятие нарощенных ресниц не входит)",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/crb6306n3a.jpg",
+          "image": "/assets/dikidi/service-17008125.jpg",
           "price": "140",
           "cost": "140",
           "currency": "BYN",
@@ -2868,14 +3067,17 @@
           "category": "Наращивание ресниц",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/17008125",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3806026"
+          ]
         },
         {
           "id": "17008108",
           "name": "Наращивание ресниц классика/ уголки (в цену снятие нарощенных ресниц не входит)",
           "serviceValue": "Наращивание ресниц классика/ уголки (в цену снятие нарощенных ресниц не входит)",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/6e7nanj8v2.jpg",
+          "image": "/assets/dikidi/service-17008108.jpg",
           "price": "80",
           "cost": "80",
           "currency": "BYN",
@@ -2893,14 +3095,17 @@
           "category": "Наращивание ресниц",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/17008108",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3806026"
+          ]
         },
         {
           "id": "17008472",
           "name": "Снятие ресниц без последующего наращивания от 20 до 50р",
           "serviceValue": "Снятие ресниц без последующего наращивания от 20 до 50р",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/307rd083si.jpg",
+          "image": "/assets/dikidi/service-17008472.jpg",
           "price": "20",
           "cost": "20",
           "currency": "BYN",
@@ -2918,14 +3123,17 @@
           "category": "Наращивание ресниц",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/17008472",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3806026"
+          ]
         },
         {
           "id": "23300908",
           "name": "Дополнительные эффекты L, M, N, Y, J, W изгибы ресниц, цветные ресницы, мокрые эффекты, лучи",
           "serviceValue": "Дополнительные эффекты L, M, N, Y, J, W изгибы ресниц, цветные ресницы, мокрые эффекты, лучи",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/6b65pch874.jpg",
+          "image": "/assets/dikidi/service-23300908.jpg",
           "price": "10",
           "cost": "10",
           "currency": "BYN",
@@ -2943,7 +3151,8 @@
           "category": "Наращивание ресниц",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23300908",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         }
       ]
     },
@@ -2974,7 +3183,8 @@
           "category": "Окрашивание волос без материалов",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/21310012",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20814715",
@@ -2999,7 +3209,8 @@
           "category": "Окрашивание волос без материалов",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20814715",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20962796",
@@ -3024,7 +3235,8 @@
           "category": "Окрашивание волос без материалов",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20962796",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         }
       ]
     },
@@ -3037,7 +3249,7 @@
           "name": "Сложное окрашивание (краситель Matrix/ L’Oréal/ Keune ) длинные волосы от 400 до 800руб",
           "serviceValue": "Сложное окрашивание (краситель Matrix/ L’Oréal/ Keune ) длинные волосы от 400 до 800руб",
           "description": "Сложное окрашивание (краситель Matrix/ L’Oréal/ Keune ) длинные волосы от 400 до 800руб",
-          "image": "https://f2.dikidi.net/c21/v20652/5kulkao2t8.jpg",
+          "image": "/assets/dikidi/service-20816334.jpg",
           "price": "450",
           "cost": "450",
           "currency": "BYN",
@@ -3055,14 +3267,15 @@
           "category": "Окрашивание волос краситель L’Oréal/Matrix",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20816334",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20816238",
           "name": "Сложное окрашивание волос (краситель Matrix/ L’Oréal/ Keune) средняя длина от 350 до 700",
           "serviceValue": "Сложное окрашивание волос (краситель Matrix/ L’Oréal/ Keune) средняя длина от 350 до 700",
           "description": "Сложное окрашивание волос (краситель Matrix/ L’Oréal/ Keune) средняя длина от 350 до 700",
-          "image": "https://f2.dikidi.net/c21/v20652/5j7io1p01d.jpg",
+          "image": "/assets/dikidi/service-20816238.jpg",
           "price": "300",
           "cost": "300",
           "currency": "BYN",
@@ -3080,14 +3293,15 @@
           "category": "Окрашивание волос краситель L’Oréal/Matrix",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20816238",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20816208",
           "name": "Сложное окрашивание короткий волос ( краситель Matrix/ L’Oréal/ Keune) от 250 до 450 руб",
           "serviceValue": "Сложное окрашивание короткий волос ( краситель Matrix/ L’Oréal/ Keune) от 250 до 450 руб",
           "description": "Сложное окрашивание короткий волос ( краситель Matrix/ L’Oréal/ Keune) от 250 до 450 руб",
-          "image": "https://f2.dikidi.net/c22/v21138/2bafo9m7nq.jpg",
+          "image": "/assets/dikidi/service-20816208.jpg",
           "price": "250",
           "cost": "250",
           "currency": "BYN",
@@ -3105,14 +3319,15 @@
           "category": "Окрашивание волос краситель L’Oréal/Matrix",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20816208",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20816179",
           "name": "Тонирование волос (краситель Matrix/ L’Oréal/ Keune) от 100 до 500 руб цена зависит от длины и густоты волос",
           "serviceValue": "Тонирование волос (краситель Matrix/ L’Oréal/ Keune) от 100 до 500 руб цена зависит от длины и густоты волос",
           "description": "Тонирование волос (краситель Matrix/ L’Oréal/ Keune) от 100 до 500 руб цена зависит от длины и густоты волос",
-          "image": "https://f2.dikidi.net/c21/v20652/5or23gno2s.jpg",
+          "image": "/assets/dikidi/service-20816179.jpg",
           "price": "100",
           "cost": "100",
           "currency": "BYN",
@@ -3130,14 +3345,15 @@
           "category": "Окрашивание волос краситель L’Oréal/Matrix",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20816179",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20816132",
           "name": "Окрашивание волос очень длинные густые волосы один тон (краситель Matrix/ L’Oréal/ Keune ) от 300-600руб",
           "serviceValue": "Окрашивание волос очень длинные густые волосы один тон (краситель Matrix/ L’Oréal/ Keune ) от 300-600руб",
           "description": "Окрашивание волос очень длинные густые волосы один тон (краситель Matrix/ L’Oréal/ Keune ) от 300-600руб",
-          "image": "https://f2.dikidi.net/c21/v20652/5bsvr4osga.jpg",
+          "image": "/assets/dikidi/service-20816132.jpg",
           "price": "300",
           "cost": "300",
           "currency": "BYN",
@@ -3155,14 +3371,15 @@
           "category": "Окрашивание волос краситель L’Oréal/Matrix",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20816132",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20816107",
           "name": "Окрашивание длинных волос в один тон (краситель Matrix/ L’Oréal / KEUNE) от 250 до 500",
           "serviceValue": "Окрашивание длинных волос в один тон (краситель Matrix/ L’Oréal / KEUNE) от 250 до 500",
           "description": "Окрашивание длинных волос в один тон (краситель Matrix/ L’Oréal / KEUNE) от 250 до 500",
-          "image": "https://f2.dikidi.net/c21/v20652/8kqut6brpq.jpg",
+          "image": "/assets/dikidi/service-20816107.jpg",
           "price": "250",
           "cost": "250",
           "currency": "BYN",
@@ -3180,14 +3397,15 @@
           "category": "Окрашивание волос краситель L’Oréal/Matrix",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20816107",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20816081",
           "name": "Окрашивание средней длины волос в один тон (краситель Matrix/ L’Oréal/ Кeune )От 200-450руб",
           "serviceValue": "Окрашивание средней длины волос в один тон (краситель Matrix/ L’Oréal/ Кeune )От 200-450руб",
           "description": "Окрашивание средней длины волос в один тон (краситель Matrix/ L’Oréal/ Кeune )От 200-450руб",
-          "image": "https://f2.dikidi.net/c22/v21138/1hs4iqiedj.jpg",
+          "image": "/assets/dikidi/service-20816081.jpg",
           "price": "200",
           "cost": "200",
           "currency": "BYN",
@@ -3195,7 +3413,7 @@
           "floatingPrice": true,
           "discount": "0",
           "share": "0",
-          "points": "0.02",
+          "points": "0.03",
           "customSort": 2,
           "icon": {
             "id": "42274252",
@@ -3205,14 +3423,15 @@
           "category": "Окрашивание волос краситель L’Oréal/Matrix",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20816081",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20816051",
           "name": "Окрашивание короткий волос в один тон (краситель Matrix/ L’Oréal / Кeune от 100 руб до 300руб",
           "serviceValue": "Окрашивание короткий волос в один тон (краситель Matrix/ L’Oréal / Кeune от 100 руб до 300руб",
           "description": "Окрашивание короткий волос в один тон (краситель Matrix/ L’Oréal / Кeune от 100 руб до 300руб",
-          "image": "https://f2.dikidi.net/c22/v21138/23b55h27ua.jpg",
+          "image": "/assets/dikidi/service-20816051.jpg",
           "price": "100",
           "cost": "100",
           "currency": "BYN",
@@ -3230,14 +3449,15 @@
           "category": "Окрашивание волос краситель L’Oréal/Matrix",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20816051",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23371370",
           "name": "Цена красителя для от 1 до 3 р за 1 г. цена оксида 0,20 коп за 1 г. (краситель подбирается индивидуально от типа седины и волос и запроса клиента)",
           "serviceValue": "Цена красителя для от 1 до 3 р за 1 г. цена оксида 0,20 коп за 1 г. (краситель подбирается индивидуально от типа седины и волос и запроса клиента)",
           "description": "Цена красителя для от 1 до 3 р за 1 г. цена оксида 0,20 коп за 1 г. (краситель подбирается индивидуально от типа седины и волос и запроса клиента)",
-          "image": "https://f2.dikidi.net/c28/v27850/7ej67ir4de.jpg",
+          "image": "/assets/dikidi/service-23371370.jpg",
           "price": "1",
           "cost": "1",
           "currency": "BYN",
@@ -3255,7 +3475,8 @@
           "category": "Окрашивание волос краситель L’Oréal/Matrix",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23371370",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         }
       ]
     },
@@ -3286,7 +3507,8 @@
           "category": "Педикюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15186062",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "15186464",
@@ -3311,7 +3533,10 @@
           "category": "Педикюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15186464",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3994799"
+          ]
         },
         {
           "id": "15186108",
@@ -3336,7 +3561,10 @@
           "category": "Педикюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15186108",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3994799"
+          ]
         },
         {
           "id": "15186092",
@@ -3361,7 +3589,10 @@
           "category": "Педикюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15186092",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3994799"
+          ]
         },
         {
           "id": "18798759",
@@ -3376,7 +3607,7 @@
           "floatingPrice": true,
           "discount": "0",
           "share": "0",
-          "points": "0.46",
+          "points": "0.47",
           "customSort": 7,
           "icon": {
             "id": "",
@@ -3386,7 +3617,8 @@
           "category": "Педикюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/18798759",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "15187690",
@@ -3401,7 +3633,7 @@
           "floatingPrice": true,
           "discount": "0",
           "share": "0",
-          "points": "0.49",
+          "points": "0.5",
           "customSort": 6,
           "icon": {
             "id": "",
@@ -3411,7 +3643,8 @@
           "category": "Педикюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15187690",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20891185",
@@ -3436,7 +3669,8 @@
           "category": "Педикюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20891185",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "15187620",
@@ -3461,7 +3695,10 @@
           "category": "Педикюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15187620",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3994799"
+          ]
         },
         {
           "id": "20891245",
@@ -3486,7 +3723,8 @@
           "category": "Педикюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20891245",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "15186536",
@@ -3511,7 +3749,10 @@
           "category": "Педикюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15186536",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3994799"
+          ]
         },
         {
           "id": "18267609",
@@ -3536,7 +3777,8 @@
           "category": "Педикюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/18267609",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "22825759",
@@ -3561,7 +3803,8 @@
           "category": "Педикюр",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/22825759",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         }
       ]
     },
@@ -3592,7 +3835,10 @@
           "category": "Пирсинг",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15332860",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "1254601"
+          ]
         },
         {
           "id": "15332840",
@@ -3617,7 +3863,10 @@
           "category": "Пирсинг",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/15332840",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "1254601"
+          ]
         },
         {
           "id": "23301404",
@@ -3642,7 +3891,8 @@
           "category": "Пирсинг",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23301404",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23301541",
@@ -3667,7 +3917,8 @@
           "category": "Пирсинг",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23301541",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23301438",
@@ -3692,7 +3943,8 @@
           "category": "Пирсинг",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23301438",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23301451",
@@ -3717,7 +3969,8 @@
           "category": "Пирсинг",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23301451",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23301424",
@@ -3742,7 +3995,8 @@
           "category": "Пирсинг",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23301424",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23301508",
@@ -3767,7 +4021,8 @@
           "category": "Пирсинг",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23301508",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23301484",
@@ -3792,7 +4047,8 @@
           "category": "Пирсинг",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23301484",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23301496",
@@ -3817,7 +4073,8 @@
           "category": "Пирсинг",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23301496",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         }
       ]
     },
@@ -3848,14 +4105,15 @@
           "category": "Ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20763666",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "13875928",
           "name": "Ламинирование ресниц +ботокс (ж)",
           "serviceValue": "Ламинирование ресниц +ботокс (ж)",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста ваш номер телефона и ваше имя мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f1.dikidi.net/c11/v10452/5hfm9mrsl1.jpg",
+          "image": "/assets/dikidi/service-13875928.jpg",
           "price": "80",
           "cost": "80",
           "currency": "BYN",
@@ -3873,7 +4131,8 @@
           "category": "Ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/13875928",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20781837",
@@ -3898,7 +4157,8 @@
           "category": "Ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20781837",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20781802",
@@ -3923,14 +4183,15 @@
           "category": "Ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20781802",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20781821",
           "name": "Наращивание ресниц Голливудский объём",
           "serviceValue": "Наращивание ресниц Голливудский объём",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста ваш номер телефона и ваше имя мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/af07m9b9j5.jpg",
+          "image": "/assets/dikidi/service-20781821.jpg",
           "price": "160",
           "cost": "160",
           "currency": "BYN",
@@ -3948,14 +4209,15 @@
           "category": "Ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20781821",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "1378573",
           "name": "Окрашивание ресниц",
           "serviceValue": "Окрашивание ресниц",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста ваш номер телефона и ваше имя мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f1.dikidi.net/c11/v10452/30lk8uv73t.jpg",
+          "image": "/assets/dikidi/service-1378573.jpg",
           "price": "25",
           "cost": "25",
           "currency": "BYN",
@@ -3973,7 +4235,10 @@
           "category": "Ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/1378573",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "3955712"
+          ]
         },
         {
           "id": "20814896",
@@ -3998,14 +4263,15 @@
           "category": "Ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20814896",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20814892",
           "name": "Наращивание ресниц 2,5 Д",
           "serviceValue": "Наращивание ресниц 2,5 Д",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста ваш номер телефона и ваше имя мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c22/v21033/65fqq3035m.jpg",
+          "image": "/assets/dikidi/service-20814892.jpg",
           "price": "110",
           "cost": "110",
           "currency": "BYN",
@@ -4023,7 +4289,8 @@
           "category": "Ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20814892",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20814889",
@@ -4048,14 +4315,15 @@
           "category": "Ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20814889",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20814884",
           "name": "Наращивание ресниц 1,5 Д",
           "serviceValue": "Наращивание ресниц 1,5 Д",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста ваш номер телефона и ваше имя мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/2khrg081ml.jpg",
+          "image": "/assets/dikidi/service-20814884.jpg",
           "price": "90",
           "cost": "90",
           "currency": "BYN",
@@ -4073,7 +4341,8 @@
           "category": "Ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20814884",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "20814858",
@@ -4098,14 +4367,15 @@
           "category": "Ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20814858",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23300180",
           "name": "Ламинирование ресниц + ботокс + окрашивание ресниц",
           "serviceValue": "Ламинирование ресниц + ботокс + окрашивание ресниц",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста ваш номер телефона и ваше имя мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c28/v27734/5msqdvglj3.jpg",
+          "image": "/assets/dikidi/service-23300180.jpg",
           "price": "100",
           "cost": "100",
           "currency": "BYN",
@@ -4123,14 +4393,15 @@
           "category": "Ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23300180",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         },
         {
           "id": "23300765",
           "name": "Снятие наращенных ресниц от 20 до 50 зависит от сложности снятия и количество ресниц",
           "serviceValue": "Снятие наращенных ресниц от 20 до 50 зависит от сложности снятия и количество ресниц",
           "description": "Снятие наращенных ресниц от 20 до 50 зависит от сложности снятия и количество ресниц",
-          "image": "https://f2.dikidi.net/c28/v27734/v3tl5l5g4j.jpg",
+          "image": "/assets/dikidi/service-23300765.jpg",
           "price": "20",
           "cost": "20",
           "currency": "BYN",
@@ -4148,7 +4419,8 @@
           "category": "Ресницы",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/23300765",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": []
         }
       ]
     },
@@ -4161,7 +4433,7 @@
           "name": "Кератин/ботекс волос от 200 до 570 зависит от длинны и густоты волос, точную цену можно узнать после консультации",
           "serviceValue": "Кератин/ботекс волос от 200 до 570 зависит от длинны и густоты волос, точную цену можно узнать после консультации",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c21/v20646/6ch0ka1ucm.jpg",
+          "image": "/assets/dikidi/service-20341455.jpg",
           "price": "200",
           "cost": "200",
           "currency": "BYN",
@@ -4179,14 +4451,17 @@
           "category": "Уход для волос",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20341455",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "4038807"
+          ]
         },
         {
           "id": "20814599",
           "name": "Холодное восстановление волос + реконструкция от 200 до 300",
           "serviceValue": "Холодное восстановление волос + реконструкция от 200 до 300",
           "description": "Мастера работают, только предварительной записи. Для подтверждения записи, оставьте пожалуйста, ваш номер телефона и ваше имя, мы с вами обязательно свяжемся! Спасибо!",
-          "image": "https://f2.dikidi.net/c21/v20646/698d28bscv.jpg",
+          "image": "/assets/dikidi/service-20814599.jpg",
           "price": "200",
           "cost": "200",
           "currency": "BYN",
@@ -4204,7 +4479,10 @@
           "category": "Уход для волос",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20814599",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "4038807"
+          ]
         }
       ]
     },
@@ -4235,7 +4513,10 @@
           "category": "Консультация специалиста",
           "detailUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/service/20838372",
           "availability": "https://schema.org/InStock",
-          "detailSource": "Dikidi JSON-LD Service"
+          "detailSource": "Dikidi JSON-LD Service",
+          "masters": [
+            "4038807"
+          ]
         }
       ]
     }
