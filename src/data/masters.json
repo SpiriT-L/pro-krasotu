@@ -1,0 +1,598 @@
+{
+  "metadata": {
+    "salon": "ПРО красоту",
+    "source": "https://dikidi.ru/209507?p=1.pi-ssm&o=7",
+    "collectedAt": "2026-11-11T19:29:19.7462593Z",
+    "currency": "BYN"
+  },
+  "masters": [
+    {
+      "id": "1254601",
+      "fullName": "Морозова Светлана Косметик (с мед.образ)",
+      "photo": "https://f1.dikidi.net/c8/v7096/59qe2h19ik.jpg?size=r",
+      "about": "Онлайн-запись, мастер Морозова Светлана Косметик (с мед.образ) в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
+      "specialization": "специалист по пирсенгу/проколу ушей",
+      "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/1254601",
+      "services": [
+        {
+          "name": "Прокол мочек ушей (с сережкой)",
+          "category": "Пирсинг",
+          "price": "70 BYN",
+          "durationMinutes": 15
+        },
+        {
+          "name": "Снятие/замена сережек от 20 до 50 зависит от сложности",
+          "category": "Пирсинг",
+          "price": "20 BYN",
+          "durationMinutes": 15
+        },
+        {
+          "name": "Ультразвуковая чистка лица",
+          "category": "Косметология (уходы и массаж лица)",
+          "price": "60 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Механическая чистка лица",
+          "category": "Косметология (уходы и массаж лица)",
+          "price": "100 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Комбинированная чистка лица (механическая+ультразвуковая)",
+          "category": "Косметология (уходы и массаж лица)",
+          "price": "120 BYN",
+          "durationMinutes": 1
+        }
+      ]
+    },
+    {
+      "id": "3565367",
+      "fullName": "Орловская Элонна",
+      "photo": "https://dikidi.ru/assets/images/profile/master.png",
+      "about": "Онлайн-запись, мастер Орловская Элонна в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
+      "specialization": "специалтст по дипиляции шугаринг / ламинированию ресниц нию ресниц",
+      "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/3565367",
+      "services": [
+        {
+          "name": "Депиляция зоны подмышечных впадины",
+          "category": "Депиляция женская",
+          "price": "30 BYN",
+          "durationMinutes": 20
+        },
+        {
+          "name": "Депиляция бикини (классическое)",
+          "category": "Депиляция женская",
+          "price": "50 BYN",
+          "durationMinutes": 25
+        },
+        {
+          "name": "Депиляция бикини (глубокое)",
+          "category": "Депиляция женская",
+          "price": "60 BYN",
+          "durationMinutes": 40
+        },
+        {
+          "name": "Депиляция голени",
+          "category": "Депиляция женская",
+          "price": "50 BYN",
+          "durationMinutes": 20
+        },
+        {
+          "name": "Депиляция зоны рук ( полностью)",
+          "category": "Депиляция мужская",
+          "price": "60 BYN",
+          "durationMinutes": 30
+        }
+      ]
+    },
+    {
+      "id": "3806026",
+      "fullName": "Левая Оксана",
+      "photo": "https://dikidi.ru/assets/images/profile/master.png",
+      "about": "Онлайн-запись, мастер Левая Оксана в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
+      "specialization": "мастер по наращиванию ресниц",
+      "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/3806026",
+      "services": [
+        {
+          "name": "Наращивание ресниц классика/ уголки (в цену снятие нарощенных ресниц не входит)",
+          "category": "Наращивание ресниц",
+          "price": "80 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Наращивание ресниц 1.5D (снятие наращивание ресниц в цену не входит)",
+          "category": "Наращивание ресниц",
+          "price": "90 BYN",
+          "durationMinutes": 2
+        },
+        {
+          "name": "Наращивание ресниц 3D (в цену снятие нарощенных ресниц не входит)",
+          "category": "Наращивание ресниц",
+          "price": "120 BYN",
+          "durationMinutes": 2
+        },
+        {
+          "name": "Наращивание ресниц 4D (снятие нарощенных ресниц не входит)",
+          "category": "Наращивание ресниц",
+          "price": "140 BYN",
+          "durationMinutes": 3
+        },
+        {
+          "name": "Снятие ресниц без последующего наращивания от 20 до 50р",
+          "category": "Наращивание ресниц",
+          "price": "20 BYN",
+          "durationMinutes": 30
+        }
+      ]
+    },
+    {
+      "id": "3946639",
+      "fullName": "Пикта Алеся руководитель салона /парикмахер",
+      "photo": "https://f2.dikidi.net/c21/v20540/7q0bqs5qc2.jpg?size=r",
+      "about": "Онлайн-запись, мастер Пикта Алеся руководитель салона /парикмахер в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
+      "specialization": "Стилист/колорист/универсал/ бровист",
+      "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/3946639",
+      "services": [
+        {
+          "name": "Стрижка челки (коррекция) от 30 до 40 (без мытья и с мытьем)",
+          "category": "Женские стрижки и стрижки для девочек до 10 лет",
+          "price": "30 BYN",
+          "durationMinutes": 30
+        },
+        {
+          "name": "Стрижка женская одним срезом(подравнивание) без мытья, услуга осуществления, только на вымытые и уложенные волосы от 50 до 60 руб",
+          "category": "Женские стрижки и стрижки для девочек до 10 лет",
+          "price": "50 BYN",
+          "durationMinutes": 45
+        },
+        {
+          "name": "Стрижка женская модельная короткие волосы с мытьем от 60 до 70руб",
+          "category": "Женские стрижки и стрижки для девочек до 10 лет",
+          "price": "60 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Стрижка женская модельная средней длинны от 70 до 80 руб",
+          "category": "Женские стрижки и стрижки для девочек до 10 лет",
+          "price": "70 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Стрижка женская модельная длинные с мытьем от 90 до 120 руб",
+          "category": "Женские стрижки и стрижки для девочек до 10 лет",
+          "price": "90 BYN",
+          "durationMinutes": 1
+        }
+      ]
+    },
+    {
+      "id": "3955712",
+      "fullName": "Протас Виктория специалист (бровист, визажист, прически)",
+      "photo": "https://dikidi.ru/assets/images/profile/master.png",
+      "about": "Онлайн-запись, мастер Протас Виктория специалист (бровист, визажист, прически) в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
+      "specialization": "визажист, бровист, прически",
+      "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/3955712",
+      "services": [
+        {
+          "name": "Окрашивание ресниц",
+          "category": "Ресницы",
+          "price": "25 BYN",
+          "durationMinutes": 30
+        },
+        {
+          "name": "Свадебный макияж от 170 до 250",
+          "category": "Визаж",
+          "price": "170 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Коррекция женских бровей (пинцет,воск)",
+          "category": "Брови и ресницы",
+          "price": "30 BYN",
+          "durationMinutes": 30
+        },
+        {
+          "name": "Долговременная укладка бровей без коррекции",
+          "category": "Брови и ресницы",
+          "price": "50 BYN",
+          "durationMinutes": 40
+        },
+        {
+          "name": "Коррекция мужских бровей (пинцет,воск)",
+          "category": "Брови и ресницы",
+          "price": "35 BYN",
+          "durationMinutes": 30
+        }
+      ]
+    },
+    {
+      "id": "3955714",
+      "fullName": "Сидорович Ольга",
+      "photo": "https://dikidi.ru/assets/images/profile/master.png",
+      "about": "Онлайн-запись, мастер Сидорович Ольга в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
+      "specialization": "мастер по депиляции/воск/шугаринг",
+      "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/3955714",
+      "services": [
+        {
+          "name": "Депиляция зоны рук ( до локтя)",
+          "category": "Депиляция женская",
+          "price": "40 BYN",
+          "durationMinutes": 20
+        },
+        {
+          "name": "Депиляция зоны рук (полностью)",
+          "category": "Депиляция женская",
+          "price": "50 BYN",
+          "durationMinutes": 30
+        },
+        {
+          "name": "Депиляция зоны бедра",
+          "category": "Депиляция женская",
+          "price": "40 BYN",
+          "durationMinutes": 20
+        },
+        {
+          "name": "Депиляция зоны ног (полностью)",
+          "category": "Депиляция женская",
+          "price": "70 BYN",
+          "durationMinutes": 30
+        },
+        {
+          "name": "Депиляция зоны подмышечных впадины",
+          "category": "Депиляция женская",
+          "price": "30 BYN",
+          "durationMinutes": 20
+        }
+      ]
+    },
+    {
+      "id": "3955715",
+      "fullName": "Плотников Андрей",
+      "photo": "https://dikidi.ru/assets/images/profile/master.png",
+      "about": "Онлайн-запись, мастер Плотников Андрей в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
+      "specialization": "Специалист по массажу",
+      "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/3955715",
+      "services": [
+        {
+          "name": "Массаж женский (любой сложности)-30 мин",
+          "category": "Массаж",
+          "price": "50 BYN",
+          "durationMinutes": 30
+        },
+        {
+          "name": "Массаж женский (любой сложности) - 60мин",
+          "category": "Массаж",
+          "price": "80 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Массаж женский (любой сложности) -1 час 30 мин",
+          "category": "Массаж",
+          "price": "130 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Массаж мужской (любой сложности) 30 мин",
+          "category": "Массаж",
+          "price": "60 BYN",
+          "durationMinutes": 30
+        },
+        {
+          "name": "Массаж мужской (любой сложности) -1 час 30 мин",
+          "category": "Массаж",
+          "price": "140 BYN",
+          "durationMinutes": 1
+        }
+      ]
+    },
+    {
+      "id": "3958433",
+      "fullName": "Денисевич Юлия",
+      "photo": "https://f2.dikidi.net/c21/v20540/4g3icc6qdf.jpg?size=r",
+      "about": "Онлайн-запись, мастер Денисевич Юлия в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
+      "specialization": "маникюра/педикюра/наращивание",
+      "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/3958433",
+      "services": [
+        {
+          "name": "Мужской маникюр без покрытия",
+          "category": "Маникюр",
+          "price": "60 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Женский маникюр без покрытия",
+          "category": "Маникюр",
+          "price": "50 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Маникюр с покрытием лака",
+          "category": "Маникюр",
+          "price": "60 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Маникюр+гель-лак(однотонное покрытие) +снятие от 65 до 90 (Цена зависит от длины ногтей, снятие предыдущего покрыти)",
+          "category": "Маникюр",
+          "price": "65 BYN",
+          "durationMinutes": 2
+        },
+        {
+          "name": "Маникюр+укрепление+гель-лак(однотонное покрытие)+снятие от 75 до 100р (Цена зависит от длины ногтей, есть ли предыдущие покрытия и нужно ли будет арх",
+          "category": "Маникюр",
+          "price": "75 BYN",
+          "durationMinutes": 2
+        }
+      ]
+    },
+    {
+      "id": "3965187",
+      "fullName": "Луцевич Ирина",
+      "photo": "https://f2.dikidi.net/c21/v20550/1pqf4u8cc8.jpg?size=r",
+      "about": "Онлайн-запись, мастер Луцевич Ирина в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
+      "specialization": "Барбер/универсал",
+      "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/3965187",
+      "services": [
+        {
+          "name": "Стрижка челки (коррекция) от 30 до 40 (без мытья и с мытьем)",
+          "category": "Женские стрижки и стрижки для девочек до 10 лет",
+          "price": "30 BYN",
+          "durationMinutes": 30
+        },
+        {
+          "name": "Стрижка женская одним срезом(подравнивание) без мытья, услуга осуществления, только на вымытые и уложенные волосы от 50 до 60 руб",
+          "category": "Женские стрижки и стрижки для девочек до 10 лет",
+          "price": "50 BYN",
+          "durationMinutes": 45
+        },
+        {
+          "name": "Стрижка женская модельная короткие волосы с мытьем от 60 до 70руб",
+          "category": "Женские стрижки и стрижки для девочек до 10 лет",
+          "price": "60 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Стрижка женская модельная средней длинны от 70 до 80 руб",
+          "category": "Женские стрижки и стрижки для девочек до 10 лет",
+          "price": "70 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Стрижка женская модельная длинные с мытьем от 90 до 120 руб",
+          "category": "Женские стрижки и стрижки для девочек до 10 лет",
+          "price": "90 BYN",
+          "durationMinutes": 1
+        }
+      ]
+    },
+    {
+      "id": "3994799",
+      "fullName": "Захарова Вероника",
+      "photo": "https://f2.dikidi.net/c21/v20611/v9dc7usemk.jpg?size=r",
+      "about": "Онлайн-запись, мастер Захарова Вероника в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
+      "specialization": "Специалист по маникюру/педикюру",
+      "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/3994799",
+      "services": [
+        {
+          "name": "Женский педикюр (обработка пальчиков)+покрытие лаком от 60 до 70",
+          "category": "Педикюр",
+          "price": "60 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Женский педикюр (обработка пальчиков)+гель-лак (однотонное покрытие)+френч+ снятие старого покрытия 70 до 90",
+          "category": "Педикюр",
+          "price": "70 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Женский педикюр (обработка пальчиков)+гель-лак (однотонное покрытие)+ снятие старого покрытие от 70 до 90 цена зависит от сложности ножек",
+          "category": "Педикюр",
+          "price": "70 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Педикюр: Снятие долговременного покрытия от 15 до 30",
+          "category": "Педикюр",
+          "price": "15 BYN",
+          "durationMinutes": 30
+        },
+        {
+          "name": "Мужской педикюр (полная обработка стопы) от 80 до 100",
+          "category": "Педикюр",
+          "price": "80 BYN",
+          "durationMinutes": 1
+        }
+      ]
+    },
+    {
+      "id": "4038807",
+      "fullName": "Гургенидзе Александра",
+      "photo": "https://f2.dikidi.net/c21/v20609/40ea7kqle9.jpg?size=r",
+      "about": "Онлайн-запись, мастер Гургенидзе Александра в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
+      "specialization": "специалист по уходу/кератину/ботоксу волос",
+      "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/4038807",
+      "services": [
+        {
+          "name": "Кератин/ботекс волос от 200 до 570 зависит от длинны и густоты волос, точную цену можно узнать после консультации",
+          "category": "Уход для волос",
+          "price": "200 BYN",
+          "durationMinutes": 3
+        },
+        {
+          "name": "Холодное восстановление волос + реконструкция от 200 до 300",
+          "category": "Уход для волос",
+          "price": "200 BYN",
+          "durationMinutes": 2
+        },
+        {
+          "name": "Консультация наших специалистов цена 30р",
+          "category": "Консультация специалиста",
+          "price": "30 BYN",
+          "durationMinutes": 30
+        }
+      ]
+    },
+    {
+      "id": "4048842",
+      "fullName": "Медведева Юлия",
+      "photo": "https://dikidi.ru/assets/images/profile/master.png",
+      "about": "Онлайн-запись, мастер Медведева Юлия в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
+      "specialization": "Визажист/бровист/ламинирование ресниц / Перманент",
+      "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/4048842",
+      "services": [
+        {
+          "name": "Коррекция женских бровей (пинцет,воск)",
+          "category": "Брови и ресницы",
+          "price": "30 BYN",
+          "durationMinutes": 30
+        },
+        {
+          "name": "Долговременная укладка бровей без коррекции",
+          "category": "Брови и ресницы",
+          "price": "50 BYN",
+          "durationMinutes": 40
+        },
+        {
+          "name": "Коррекция мужских бровей (пинцет,воск)",
+          "category": "Брови и ресницы",
+          "price": "35 BYN",
+          "durationMinutes": 30
+        },
+        {
+          "name": "Коррекция/ моделирование бровей+окрашивание бровей от 50 до 60р",
+          "category": "Брови и ресницы",
+          "price": "50 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Свадебный макияж от 170 до 250",
+          "category": "Визаж",
+          "price": "170 BYN",
+          "durationMinutes": 1
+        }
+      ]
+    },
+    {
+      "id": "4084727",
+      "fullName": "Хакимова Валентина",
+      "photo": "https://f2.dikidi.net/c21/v20540/6o8h35nl96.jpg?size=r",
+      "about": "Онлайн-запись, мастер Хакимова Валентина в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
+      "specialization": "стилист/универсал/колорист",
+      "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/4084727",
+      "services": [
+        {
+          "name": "Стрижка челки (коррекция) от 30 до 40 (без мытья и с мытьем)",
+          "category": "Женские стрижки и стрижки для девочек до 10 лет",
+          "price": "30 BYN",
+          "durationMinutes": 30
+        },
+        {
+          "name": "Стрижка женская одним срезом(подравнивание) без мытья, услуга осуществления, только на вымытые и уложенные волосы от 50 до 60 руб",
+          "category": "Женские стрижки и стрижки для девочек до 10 лет",
+          "price": "50 BYN",
+          "durationMinutes": 45
+        },
+        {
+          "name": "Стрижка женская модельная короткие волосы с мытьем от 60 до 70руб",
+          "category": "Женские стрижки и стрижки для девочек до 10 лет",
+          "price": "60 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Стрижка женская модельная средней длинны от 70 до 80 руб",
+          "category": "Женские стрижки и стрижки для девочек до 10 лет",
+          "price": "70 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Стрижка женская модельная длинные с мытьем от 90 до 120 руб",
+          "category": "Женские стрижки и стрижки для девочек до 10 лет",
+          "price": "90 BYN",
+          "durationMinutes": 1
+        }
+      ]
+    },
+    {
+      "id": "4311212",
+      "fullName": "Толяронок Ирина",
+      "photo": "https://f2.dikidi.net/c24/v23318/2o3dkt14ms.jpg?size=r",
+      "about": "Онлайн-запись, мастер Толяронок Ирина в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
+      "specialization": "Массажист/ Медобразование",
+      "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/4311212",
+      "services": [
+        {
+          "name": "Массаж женский (любой сложности)-30 мин",
+          "category": "Массаж",
+          "price": "50 BYN",
+          "durationMinutes": 30
+        },
+        {
+          "name": "Массаж женский (любой сложности) - 60мин",
+          "category": "Массаж",
+          "price": "80 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Массаж женский (любой сложности) -1 час 30 мин",
+          "category": "Массаж",
+          "price": "130 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Массаж мужской (любой сложности) 30 мин",
+          "category": "Массаж",
+          "price": "60 BYN",
+          "durationMinutes": 30
+        },
+        {
+          "name": "Массаж мужской (любой сложности) -1 час 30 мин",
+          "category": "Массаж",
+          "price": "140 BYN",
+          "durationMinutes": 1
+        }
+      ]
+    },
+    {
+      "id": "4362666",
+      "fullName": "Роман Притульчик",
+      "photo": "https://dikidi.ru/assets/images/profile/master.png",
+      "about": "Онлайн-запись, мастер Роман Притульчик в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
+      "specialization": "Остеопат/реабилитолог/медобразование стаж 16лет",
+      "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/4362666",
+      "services": [
+        {
+          "name": "Массаж женский (любой сложности)-30 мин",
+          "category": "Массаж",
+          "price": "50 BYN",
+          "durationMinutes": 30
+        },
+        {
+          "name": "Массаж женский (любой сложности) - 60мин",
+          "category": "Массаж",
+          "price": "80 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Массаж женский (любой сложности) -1 час 30 мин",
+          "category": "Массаж",
+          "price": "130 BYN",
+          "durationMinutes": 1
+        },
+        {
+          "name": "Массаж мужской (любой сложности) 30 мин",
+          "category": "Массаж",
+          "price": "60 BYN",
+          "durationMinutes": 30
+        },
+        {
+          "name": "Массаж мужской (любой сложности) -1 час 30 мин",
+          "category": "Массаж",
+          "price": "140 BYN",
+          "durationMinutes": 1
+        }
+      ]
+    }
+  ]
+}
