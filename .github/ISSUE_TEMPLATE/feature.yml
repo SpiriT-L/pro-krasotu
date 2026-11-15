@@ -1,6 +1,6 @@
 name: Feature
 description: Предложение новой функции или изменения интерфейса
-title: "feat: "
+title: 'feat: '
 labels:
   - enhancement
 body:

@@ -1,0 +1,7 @@
+node_modules/
+dist/
+public/assets/
+assets/
+*.tsbuildinfo
+AGENTS*.md
+README_site*.md

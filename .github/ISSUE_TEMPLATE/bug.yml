@@ -1,6 +1,6 @@
 name: Bug report
 description: Сообщение об ошибке или регрессии
-title: "fix: "
+title: 'fix: '
 labels:
   - bug
 body:
