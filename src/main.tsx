@@ -28,6 +28,17 @@ type Service = (typeof servicesData.categories)[number]['services'][number] & { 
 type Master = (typeof mastersData.masters)[number];
 type Comment = { id: string; source?: string; sourceUrl?: string; name: string; email?: string; text: string; rating: number; createdAt: string; avatar?: { initial: string; color: string } };
 const allServices = servicesData.categories.flatMap((category) => category.services.map((service) => ({ ...service, category: category.name })));
+const categoryImageFallbacks: Record<string, string> = {
+  'Депиляция мужская': '/assets/dikidi/service-20848249.jpg',
+  'Косметология (уходы и массаж лица)': '/assets/dikidi/service-18636970.jpg',
+  Маникюр: '/assets/dikidi/service-1407317.jpg',
+  'Окрашивание волос без материалов': '/assets/dikidi/service-20816334.jpg',
+  Педикюр: '/assets/dikidi/service-1407317.jpg',
+  Пирсинг: '/assets/dikidi/service-2463467.jpg',
+  Ресницы: '/assets/dikidi/service-13875928.jpg',
+  'Консультация специалиста': '/assets/salon-1.jpg',
+};
+const getCategoryImage = (category: (typeof servicesData.categories)[number]) => category.services.find((service) => service.image)?.image || categoryImageFallbacks[category.name] || '/assets/salon-1.jpg';
 const salonDescription = `Добро пожаловать в наш эксклюзивный салон красоты, где каждый визит становится настоящим ритуалом ухода и расслабления. Мы понимаем, что для успешных людей время — ценность, поэтому предлагаем высокие стандарты обслуживания, которые соответствуют вашим требованиям и стилю жизни.
 
 Наши профессиональные мастера — это не только высококвалифицированные специалисты, но и настоящие художники своего дела. Каждый из них прошёл тщательный отбор и регулярное обучение, чтобы предоставить Вам услуги, соответствующие самым строгим международным стандартам.
@@ -172,7 +183,7 @@ function App() {
 
       <section className="services section bg-[#ebe6df]" id="services">
         <div className="section-top"><p>Найдите свой способ <br /><em>почувствовать себя лучше.</em></p></div>
-        <div className="service-category-grid grid grid-cols-2 gap-4 md:grid-cols-3">{servicesData.categories.map((category) => <button className="service-category-card group overflow-hidden rounded-3xl border border-[#d2c8bb] bg-[#f8f5f0] text-left shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl" key={category.id} onClick={() => setSelectedCategory(category)}><img className="h-36 w-full object-cover saturate-[.75] transition duration-500 group-hover:scale-105" src={category.services[0]?.image || '/assets/salon-2.jpg'} alt="" /><span className="block p-5 pb-1 text-[11px] uppercase tracking-[.12em] text-[#9c8662]">{category.name}</span><span className="block px-5 pb-5 text-lg leading-tight text-[#292725]">{category.services.length} услуг <ArrowUpRight className="ml-2 inline-block text-[#b59a6a]" size={17} /></span></button>)}</div>
+        <div className="service-category-grid grid grid-cols-2 gap-4 md:grid-cols-3">{servicesData.categories.map((category) => <button className="service-category-card group overflow-hidden rounded-3xl border border-[#d2c8bb] bg-[#f8f5f0] text-left shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl" key={category.id} onClick={() => setSelectedCategory(category)}><img className="h-36 w-full object-cover saturate-[.75] transition duration-500 group-hover:scale-105" src={getCategoryImage(category)} alt={`Услуги: ${category.name}`} /><span className="block p-5 pb-1 text-[11px] uppercase tracking-[.12em] text-[#9c8662]">{category.name}</span><span className="block px-5 pb-5 text-lg leading-tight text-[#292725]">{category.services.length} услуг <ArrowUpRight className="ml-2 inline-block text-[#b59a6a]" size={17} /></span></button>)}</div>
       </section>
 
       <section className="statement"><div className="statement-mark">✦</div><p>Ухоженность —<br /><em>ваша новая роскошь.</em></p><span className="statement-caption">PRO KRASOTU · MINSK · 2026</span></section>
