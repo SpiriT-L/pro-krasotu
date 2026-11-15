@@ -56,6 +56,8 @@ const portfolio = [
   { src: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=700&q=85', alt: 'Макияж', size: 'small' },
   { src: 'https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=700&q=85', alt: 'Уход за волосами', size: 'small' },
   { src: 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=900&q=85', alt: 'Красивые волосы', size: 'large' },
+  { src: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=700&q=85', alt: 'Интерьер салона красоты', size: 'small' },
+  { src: 'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=700&q=85', alt: 'Уход и укладка волос', size: 'small' },
 ];
 const salonImages = ['/assets/salon-1.jpg', '/assets/salon-2.jpg', '/assets/salon-3.jpg', '/assets/salon-4.jpg', '/assets/salon-5.jpg'];
 
@@ -167,6 +169,7 @@ function App() {
           <a href="#services" onClick={() => setMenuOpen(false)}>Услуги</a>
           <a href="#about" onClick={() => setMenuOpen(false)}>О нас</a>
           <a href="#portfolio" onClick={() => setMenuOpen(false)}>Портфолио</a>
+          <a href="#masters" onClick={() => setMenuOpen(false)}>Мастера</a>
           <a href="#contacts" onClick={() => setMenuOpen(false)}>Контакты</a>
         </nav>
         <div className="header-phones"><a className="header-phone" href="tel:+375292795108">+375 (29) 279-51-08</a><a className="header-phone" href="tel:+375296495108">+375 (29) 649-51-08</a></div>
