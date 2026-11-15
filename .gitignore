@@ -14,6 +14,10 @@ dist/
 .idea/
 .vscode/
 AGENTS.md
+AGENTS_new.md
+AGENTS_legacy.md
+README_site_new.md
+.env.example_new
 docs/
 scripts/
 *.tsbuildinfo

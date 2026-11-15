@@ -1,0 +1,40 @@
+name: Feature
+description: Предложение новой функции или изменения интерфейса
+title: 'feat: '
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Цель
+      description: Какую задачу пользователя или бизнеса решает изменение?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Описание
+      description: Опишите ожидаемое поведение и затронутые страницы.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Критерии готовности
+      description: Перечислите проверяемые условия завершения.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+  - type: checkboxes
+    id: impact
+    attributes:
+      label: Область изменений
+      options:
+        - label: Интерфейс или визуальный дизайн
+        - label: API или форма
+        - label: SEO или контент
+        - label: Изображения или assets
+        - label: Требуется production deployment
