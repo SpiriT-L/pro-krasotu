@@ -34,7 +34,7 @@ const categoryImageFallbacks: Record<string, string> = {
   Маникюр: '/assets/category-manicure.png',
   'Окрашивание волос без материалов': '/assets/dikidi/service-20816334.jpg',
   Педикюр: '/assets/category-pedicure.png',
-  Пирсинг: '/assets/dikidi/service-1378573.jpg',
+  Пирсинг: '/assets/category-piercing.png',
   Ресницы: '/assets/dikidi/service-13875928.jpg',
   'Консультация специалиста': '/assets/salon-1.jpg',
 };
