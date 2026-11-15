@@ -32,10 +32,10 @@ const categoryImageFallbacks: Record<string, string> = {
   'Депиляция мужская': '/assets/category-male-waxing.png',
   'Косметология (уходы и массаж лица)': '/assets/category-cosmetology.png',
   Маникюр: '/assets/category-manicure.png',
-  'Окрашивание волос без материалов': '/assets/dikidi/service-20816334.jpg',
+  'Окрашивание волос без материалов': '/assets/service-20816334.jpg',
   Педикюр: '/assets/category-pedicure.png',
   Пирсинг: '/assets/category-piercing.png',
-  Ресницы: '/assets/dikidi/service-13875928.jpg',
+  Ресницы: '/assets/service-13875928.jpg',
   'Консультация специалиста': '/assets/salon-1.jpg',
 };
 const getCategoryImage = (category: (typeof servicesData.categories)[number]) => category.services.find((service) => service.image)?.image || categoryImageFallbacks[category.name] || '/assets/salon-1.jpg';
@@ -52,8 +52,10 @@ const salonDescription = `Добро пожаловать в наш эксклю
 Запишитесь на прием и погрузитесь в мир безупречного обслуживания и роскошного ухода за собой. Ваши ожидания станут нашей реальностью!`;
 
 const portfolioKnownVisualDuplicates = new Set([
-  '/assets/dikidi/service-20808190.jpg',
-  '/assets/dikidi/service-17008116.jpg',
+  '/assets/service-20808190.jpg',
+  '/assets/service-17008116.jpg',
+  '/assets/service-23370353.jpg',
+  '/assets/salon-1.jpg',
 ]);
 const portfolioImageSources = new Set<string>();
 const portfolio = servicesData.categories.flatMap((category) => {

@@ -4,13 +4,13 @@
     "source": "https://dikidi.ru/209507?p=1.pi-ssm&o=7",
     "collectedAt": "2026-11-14T21:49:45.2801078Z",
     "currency": "BYN",
-    "assetsDirectory": "/assets/dikidi"
+    "assetsDirectory": "/assets"
   },
   "masters": [
     {
       "id": "1254601",
       "fullName": "Морозова Светлана Косметик (с мед.образ)",
-      "photo": "/assets/dikidi/master-1254601.jpg",
+      "photo": "/assets/master-1254601.jpg",
       "about": "Онлайн-запись, мастер Морозова Светлана Косметик (с мед.образ) в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
       "specialization": "специалист по пирсенгу/проколу ушей",
       "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/1254601",
@@ -166,7 +166,7 @@
     {
       "id": "3946639",
       "fullName": "Пикта Алеся руководитель салона /парикмахер",
-      "photo": "/assets/dikidi/master-3946639.jpg",
+      "photo": "/assets/master-3946639.jpg",
       "about": "Онлайн-запись, мастер Пикта Алеся руководитель салона /парикмахер в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
       "specialization": "Стилист/колорист/универсал/ бровист",
       "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/3946639",
@@ -374,7 +374,7 @@
     {
       "id": "3958433",
       "fullName": "Денисевич Юлия",
-      "photo": "/assets/dikidi/master-3958433.jpg",
+      "photo": "/assets/master-3958433.jpg",
       "about": "Онлайн-запись, мастер Денисевич Юлия в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
       "specialization": "маникюра/педикюра/наращивание",
       "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/3958433",
@@ -426,7 +426,7 @@
     {
       "id": "3965187",
       "fullName": "Луцевич Ирина",
-      "photo": "/assets/dikidi/master-3965187.jpg",
+      "photo": "/assets/master-3965187.jpg",
       "about": "Онлайн-запись, мастер Луцевич Ирина в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
       "specialization": "Барбер/универсал",
       "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/3965187",
@@ -478,7 +478,7 @@
     {
       "id": "3994799",
       "fullName": "Захарова Вероника",
-      "photo": "/assets/dikidi/master-3994799.jpg",
+      "photo": "/assets/master-3994799.jpg",
       "about": "Онлайн-запись, мастер Захарова Вероника в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
       "specialization": "Специалист по маникюру/педикюру",
       "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/3994799",
@@ -530,7 +530,7 @@
     {
       "id": "4038807",
       "fullName": "Гургенидзе Александра",
-      "photo": "/assets/dikidi/master-4038807.jpg",
+      "photo": "/assets/master-4038807.jpg",
       "about": "Онлайн-запись, мастер Гургенидзе Александра в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
       "specialization": "специалист по уходу/кератину/ботоксу волос",
       "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/4038807",
@@ -566,7 +566,7 @@
     {
       "id": "4084727",
       "fullName": "Хакимова Валентина",
-      "photo": "/assets/dikidi/master-4084727.jpg",
+      "photo": "/assets/master-4084727.jpg",
       "about": "Онлайн-запись, мастер Хакимова Валентина в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
       "specialization": "стилист/универсал/колорист",
       "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/4084727",
@@ -618,7 +618,7 @@
     {
       "id": "4311212",
       "fullName": "Толяронок Ирина",
-      "photo": "/assets/dikidi/master-4311212.jpg",
+      "photo": "/assets/master-4311212.jpg",
       "about": "Онлайн-запись, мастер Толяронок Ирина в Салон Красоты ,,ПРО красоту\" Минск, Ежи Гедройца 2:",
       "specialization": "Массажист/ Медобразование",
       "profileUrl": "https://dikidi.ru/ru/profile/salon_krasoty_pro_krasotu_209507/master/4311212",
