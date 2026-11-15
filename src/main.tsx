@@ -29,8 +29,8 @@ type Master = (typeof mastersData.masters)[number];
 type Comment = { id: string; source?: string; sourceUrl?: string; name: string; email?: string; text: string; rating: number; createdAt: string; avatar?: { initial: string; color: string } };
 const allServices = servicesData.categories.flatMap((category) => category.services.map((service) => ({ ...service, category: category.name })));
 const categoryImageFallbacks: Record<string, string> = {
-  'Депиляция мужская': '/assets/dikidi/service-20848249.jpg',
-  'Косметология (уходы и массаж лица)': '/assets/dikidi/service-18636970.jpg',
+  'Депиляция мужская': '/assets/category-male-waxing.png',
+  'Косметология (уходы и массаж лица)': '/assets/category-cosmetology.png',
   Маникюр: '/assets/category-manicure.png',
   'Окрашивание волос без материалов': '/assets/dikidi/service-20816334.jpg',
   Педикюр: '/assets/category-pedicure.png',
