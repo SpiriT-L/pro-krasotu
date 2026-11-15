@@ -31,10 +31,10 @@ const allServices = servicesData.categories.flatMap((category) => category.servi
 const categoryImageFallbacks: Record<string, string> = {
   'Депиляция мужская': '/assets/dikidi/service-20848249.jpg',
   'Косметология (уходы и массаж лица)': '/assets/dikidi/service-18636970.jpg',
-  Маникюр: '/assets/dikidi/service-1407317.jpg',
+  Маникюр: '/assets/salon-3.jpg',
   'Окрашивание волос без материалов': '/assets/dikidi/service-20816334.jpg',
-  Педикюр: '/assets/dikidi/service-1407317.jpg',
-  Пирсинг: '/assets/dikidi/service-2463467.jpg',
+  Педикюр: '/assets/dikidi/service-2463555.jpg',
+  Пирсинг: '/assets/dikidi/service-1378573.jpg',
   Ресницы: '/assets/dikidi/service-13875928.jpg',
   'Консультация специалиста': '/assets/salon-1.jpg',
 };
