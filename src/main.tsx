@@ -51,10 +51,20 @@ const salonDescription = `Добро пожаловать в наш эксклю
 
 Запишитесь на прием и погрузитесь в мир безупречного обслуживания и роскошного ухода за собой. Ваши ожидания станут нашей реальностью!`;
 
+const portfolioKnownVisualDuplicates = new Set([
+  '/assets/dikidi/service-20808190.jpg',
+  '/assets/dikidi/service-17008116.jpg',
+]);
+const portfolioImageSources = new Set<string>();
 const portfolio = servicesData.categories.flatMap((category) => {
-  const images = category.services.map((service) => service.image).filter(Boolean) as string[];
-  while (images.length < 2) images.push(getCategoryImage(category));
-  return images.slice(0, 2).map((src, index) => ({ src, alt: `${category.name} — работа ${index + 1}`, size: 'small' }));
+  const candidates = [...category.services.map((service) => service.image).filter(Boolean), getCategoryImage(category)] as string[];
+  const uniqueImages = candidates.filter((src) => {
+    if (portfolioKnownVisualDuplicates.has(src) || portfolioImageSources.has(src)) return false;
+    portfolioImageSources.add(src);
+    return true;
+  });
+
+  return uniqueImages.slice(0, 2).map((src, index) => ({ src, alt: `${category.name} — работа ${index + 1}`, size: 'small' }));
 });
 const salonImages = ['/assets/salon-1.jpg', '/assets/salon-2.jpg', '/assets/salon-3.jpg', '/assets/salon-4.jpg', '/assets/salon-5.jpg'];
 
