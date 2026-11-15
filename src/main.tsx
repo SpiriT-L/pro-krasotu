@@ -51,14 +51,11 @@ const salonDescription = `Добро пожаловать в наш эксклю
 
 Запишитесь на прием и погрузитесь в мир безупречного обслуживания и роскошного ухода за собой. Ваши ожидания станут нашей реальностью!`;
 
-const portfolio = [
-  { src: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=900&q=85', alt: 'Укладка волос', size: 'large' },
-  { src: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=700&q=85', alt: 'Макияж', size: 'small' },
-  { src: 'https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=700&q=85', alt: 'Уход за волосами', size: 'small' },
-  { src: 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=900&q=85', alt: 'Красивые волосы', size: 'large' },
-  { src: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=700&q=85', alt: 'Интерьер салона красоты', size: 'small' },
-  { src: 'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=700&q=85', alt: 'Уход и укладка волос', size: 'small' },
-];
+const portfolio = servicesData.categories.flatMap((category) => {
+  const images = category.services.map((service) => service.image).filter(Boolean) as string[];
+  while (images.length < 2) images.push(getCategoryImage(category));
+  return images.slice(0, 2).map((src, index) => ({ src, alt: `${category.name} — работа ${index + 1}`, size: 'small' }));
+});
 const salonImages = ['/assets/salon-1.jpg', '/assets/salon-2.jpg', '/assets/salon-3.jpg', '/assets/salon-4.jpg', '/assets/salon-5.jpg'];
 
 function App() {
@@ -203,7 +200,7 @@ function App() {
 
       <section className="masters section bg-[#f4f1ec]" id="masters"><div className="section-top"><p>Наши <em>мастера.</em></p></div><div className="masters-carousel overflow-hidden" onMouseEnter={(event) => event.currentTarget.classList.add('paused')} onMouseLeave={(event) => event.currentTarget.classList.remove('paused')}><div className="master-track flex w-max gap-4">{visibleMasters.map((master) => <button className="master-card shrink-0" key={master.id} onClick={() => setSelectedMaster(master)}><img className="block w-full object-cover" src={master.photo} alt={master.fullName} /><span className="master-role">{master.specialization}</span><h3>{master.fullName}</h3><ArrowUpRight size={18} /></button>)}</div><div className="carousel-controls"><button className="carousel-button" aria-label="Предыдущие мастера" onClick={() => setMasterOffset((value) => (value - 1 + mastersData.masters.length) % mastersData.masters.length)}><ArrowLeft size={18} /></button><span>Наведите, чтобы остановить</span><button className="carousel-button" aria-label="Следующие мастера" onClick={() => setMasterOffset((value) => (value + 1) % mastersData.masters.length)}><ArrowRight size={18} /></button></div></div></section>
 
-      <section className="portfolio section bg-[#d8d0c5]" id="portfolio"><div className="section-top"><p>Вдохновение в каждой <br /><em>детали.</em></p></div><div className="gallery">{portfolio.map((item) => <img className={`${item.size} block h-full w-full object-cover`} key={item.src} src={item.src} alt={item.alt} loading="lazy" />)}</div></section>
+      <section className="portfolio section bg-[#d8d0c5]" id="portfolio"><div className="section-top"><p>Вдохновение в каждой <br /><em>детали.</em></p></div><div className="gallery">{portfolio.map((item, index) => <img className={`${item.size} block h-full w-full object-cover`} key={`${item.alt}-${index}`} src={item.src} alt={item.alt} loading="lazy" />)}</div></section>
 
       <section className="reviews section bg-[#eae4db]" id="reviews"><div className="section-top"><p className="reviews-heading">Ваши впечатления<br /><em>важны для нас.</em></p></div>{comments.length > 0 ? <div className="review-carousel"><div className="review-track">{comments.slice(0, 10).map((comment) => <article className="review-card" key={comment.id} role="button" tabIndex={0} onClick={() => setSelectedComment(comment)} onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); setSelectedComment(comment); } }}><div className="review-card-top"><div className="review-author">{comment.avatar && <span className="review-avatar" style={{ backgroundColor: comment.avatar.color }}>{comment.avatar.initial}</span>}<span>{comment.name}</span></div>{renderStars(comment.rating)}</div><p>{comment.text}</p><time>{new Date(comment.createdAt).toLocaleDateString('ru-RU')}</time></article>)}</div></div> : <div className="reviews-empty"><span>✦</span><p>Станьте первым, кто поделится впечатлением о визите.</p></div>}<button className="button button-dark review-open inline-flex items-center justify-center gap-4" onClick={() => setReviewOpen(true)}>Оставить впечатление <ArrowUpRight size={17} /></button></section>
 
