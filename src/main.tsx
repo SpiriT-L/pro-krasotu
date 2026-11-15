@@ -111,6 +111,16 @@ function App() {
     fetch('/api/comments').then((response) => response.ok ? response.json() : commentsData as Comment[]).then((data) => setComments(data as Comment[])).catch(() => setComments(commentsData as Comment[]));
   }, []);
 
+  useEffect(() => {
+    const elements = Array.from(document.querySelectorAll<HTMLElement>('main > section, .service-category-card, .master-card, .review-card, .gallery img, .booking form, .footer > div'));
+    elements.forEach((element) => element.classList.add('scroll-reveal'));
+    const observer = new IntersectionObserver((entries) => entries.forEach((entry) => {
+      if (entry.isIntersecting) { entry.target.classList.add('is-visible'); observer.unobserve(entry.target); }
+    }), { threshold: 0.12, rootMargin: '0px 0px -40px' });
+    elements.forEach((element) => observer.observe(element));
+    return () => observer.disconnect();
+  }, []);
+
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (!bookingName.trim() || !bookingPhone.trim() || (!bookingMaster && !bookingService)) return;
