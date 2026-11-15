@@ -4,3 +4,31 @@ dist/
 .env.*
 !.env.example
 *.log
+
+# Local development and Codex/agent files
+.codex/
+.agents/
+.claude/
+.cursor/
+.windsurf/
+.idea/
+.vscode/
+AGENTS.md
+docs/
+scripts/
+*.tsbuildinfo
+vite.config.d.ts
+vite.config.js
+
+# Local source exports and temporary assets
+assets/
+coverage/
+.vercel/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db

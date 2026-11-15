@@ -1,5 +1,6 @@
 import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/vite';
 // @ts-expect-error Vite loads this config in a Node runtime; the app does not need Node types.
 import { promises as fs } from 'node:fs';
 // @ts-expect-error Vite loads this config in a Node runtime; the app does not need Node types.
@@ -71,6 +72,6 @@ function bookingApi(telegramToken: string, telegramChatId: string) {
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   return {
-    plugins: [react(), commentsApi(), bookingApi(env.TELEGRAM_BOT_TOKEN, env.TELEGRAM_CHAT_ID)],
+    plugins: [react(), tailwindcss(), commentsApi(), bookingApi(env.TELEGRAM_BOT_TOKEN, env.TELEGRAM_CHAT_ID)],
   };
 });

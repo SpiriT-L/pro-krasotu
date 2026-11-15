@@ -2,6 +2,7 @@ import { FormEvent, useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { ArrowDown, ArrowLeft, ArrowRight, ArrowUpRight, Camera, Menu, Phone, Send, X } from 'lucide-react';
 import './styles.css';
+import './tailwind.css';
 import './extra.css';
 import './extra2.css';
 import './extra3.css';

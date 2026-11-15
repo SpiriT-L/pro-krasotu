@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: Manrope, Arial, sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-mono: "DM Mono", monospace;
+  --color-ink: #292725;
+  --color-cream: #f4f1ec;
+  --color-dark: #191817;
+  --color-gold: #b59a6a;
+}
