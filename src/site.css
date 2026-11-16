@@ -396,6 +396,7 @@ h2 em,
   right: 0;
   left: 0;
   overflow: hidden;
+  max-width: calc(100vw - 32px);
   border: 1px solid #c5a76f;
   border-radius: 14px;
   background: #f8f5ef;
@@ -412,6 +413,7 @@ h2 em,
   display: grid;
   max-height: min(280px, 38vh);
   overflow-y: auto;
+  overflow-x: hidden;
   padding: 8px;
 }
 .booking-picker-options button {
@@ -419,6 +421,7 @@ h2 em,
   align-items: baseline;
   justify-content: space-between;
   gap: 16px;
+  min-width: 0;
   border: 0;
   border-radius: 8px;
   background: transparent;
@@ -435,6 +438,7 @@ h2 em,
 }
 .booking-picker-options button span {
   min-width: 0;
+  overflow-wrap: anywhere;
 }
 .booking-picker-options button small {
   flex: 0 0 auto;
@@ -443,6 +447,10 @@ h2 em,
     11px 'DM Mono',
     monospace;
   white-space: nowrap;
+}
+.booking-picker-options button:hover small,
+.booking-picker-options button.is-selected small {
+  color: #3f321f;
 }
 .booking-picker-options button:hover,
 .booking-picker-options button.is-selected {
