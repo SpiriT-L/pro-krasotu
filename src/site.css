@@ -1361,6 +1361,9 @@ h2 em,
   border-radius: 16px;
   margin-bottom: 22px;
 }
+.service-modal > .button {
+  margin-top: 24px;
+}
 .modal-source-note {
   font-size: 11px !important;
   color: #9c8662 !important;
