@@ -1208,8 +1208,12 @@ h2 em,
   gap: 18px;
 }
 .category-service-info > span {
-  font-size: 16px;
-  line-height: 1.35;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  line-height: 1.12;
+  text-wrap: balance;
 }
 .category-service-info small {
   font:
@@ -1252,6 +1256,9 @@ h2 em,
 @media (max-width: 600px) {
   .category-service-info {
     display: block;
+  }
+  .category-service-info > span {
+    font-size: 19px;
   }
   .category-service-info small {
     display: block;

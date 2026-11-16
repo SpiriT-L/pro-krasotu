@@ -35,25 +35,30 @@ const portfolioKnownVisualDuplicates = new Set([
   '/assets/salon-1.jpg',
 ]);
 const portfolioImageSources = new Set<string>();
-const portfolio = servicesData.categories.flatMap((category) => {
-  const candidates = [
-    ...category.services.map((service) => service.image).filter(Boolean),
-    getCategoryImage(category),
-  ] as string[];
-  const uniqueImages = candidates.filter((src) => {
-    if (portfolioKnownVisualDuplicates.has(src) || portfolioImageSources.has(src)) return false;
-    portfolioImageSources.add(src);
-    return true;
-  });
+const portfolio = servicesData.categories
+  .flatMap((category) => {
+    const candidates = [
+      ...category.services.map((service) => service.image).filter(Boolean),
+      getCategoryImage(category),
+    ] as string[];
+    const uniqueImages = candidates.filter((src) => {
+      if (portfolioKnownVisualDuplicates.has(src) || portfolioImageSources.has(src)) return false;
+      portfolioImageSources.add(src);
+      return true;
+    });
 
-  return uniqueImages
-    .slice(0, 2)
-    .map((src, index) => ({ src, alt: `${category.name} — работа ${index + 1}`, size: 'small' }));
-}).slice(0, 27);
+    return uniqueImages
+      .slice(0, 2)
+      .map((src, index) => ({ src, alt: `${category.name} — работа ${index + 1}`, size: 'small' }));
+  })
+  .slice(0, 27);
 const randomizedPortfolio = [...portfolio];
 for (let index = randomizedPortfolio.length - 1; index > 0; index -= 1) {
   const randomIndex = Math.floor(Math.random() * (index + 1));
-  [randomizedPortfolio[index], randomizedPortfolio[randomIndex]] = [randomizedPortfolio[randomIndex], randomizedPortfolio[index]];
+  [randomizedPortfolio[index], randomizedPortfolio[randomIndex]] = [
+    randomizedPortfolio[randomIndex],
+    randomizedPortfolio[index],
+  ];
 }
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
