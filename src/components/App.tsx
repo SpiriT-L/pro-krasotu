@@ -49,7 +49,12 @@ const portfolio = servicesData.categories.flatMap((category) => {
   return uniqueImages
     .slice(0, 2)
     .map((src, index) => ({ src, alt: `${category.name} — работа ${index + 1}`, size: 'small' }));
-});
+}).slice(0, 27);
+const randomizedPortfolio = [...portfolio];
+for (let index = randomizedPortfolio.length - 1; index > 0; index -= 1) {
+  const randomIndex = Math.floor(Math.random() * (index + 1));
+  [randomizedPortfolio[index], randomizedPortfolio[randomIndex]] = [randomizedPortfolio[randomIndex], randomizedPortfolio[index]];
+}
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [sent, setSent] = useState(false);
@@ -237,7 +242,7 @@ function App() {
         }
         onNext={() => setMasterOffset((value) => (value + 1) % mastersData.masters.length)}
       />
-      <PortfolioSection items={portfolio} />
+      <PortfolioSection items={randomizedPortfolio} />
       <section className="reviews section bg-[#eae4db]" id="reviews">
         <div className="section-top">
           <p className="reviews-heading">
