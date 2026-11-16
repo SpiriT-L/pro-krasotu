@@ -1336,12 +1336,20 @@ h2 em,
   gap: 18px;
 }
 .category-service-info > span {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: Manrope, Arial, sans-serif;
   font-size: 21px;
   font-weight: 500;
   letter-spacing: -0.025em;
   line-height: 1.12;
   text-wrap: balance;
+}
+
+/* Cards use a clear sans-serif typeface; display serif remains reserved for section headings. */
+.service-card h3,
+.master-card h3,
+.category-service-info > span,
+.modal-services button {
+  font-family: Manrope, Arial, sans-serif;
 }
 .category-service-info small {
   font:
