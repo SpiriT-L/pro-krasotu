@@ -1,41 +1,21 @@
 import { FormEvent, useEffect, useState } from 'react';
-import { ArrowDown, ArrowLeft, ArrowRight, ArrowUpRight, Camera, Menu, Phone, Send, X } from 'lucide-react';
+import { ArrowUpRight, X } from 'lucide-react';
 import '../site.css';
 import '../tailwind.css';
 import servicesData from '../data/services.json';
 import mastersData from '../data/masters.json';
 import commentsData from '../data/comments.json';
+import { allServices, getCategoryImage, salonImages } from '../data/site';
+import { Comment, Master, Service } from '../types';
+import { Header } from './Header';
+import { AboutSection } from './AboutSection';
+import { Footer } from './Footer';
+import { HeroSection } from './HeroSection';
+import { MastersSection } from './MastersSection';
+import { PortfolioSection } from './PortfolioSection';
+import { ServiceCategories } from './ServiceCategories';
+import { StatementSection } from './StatementSection';
 
-type Service = (typeof servicesData.categories)[number]['services'][number] & { category: string };
-type Master = (typeof mastersData.masters)[number];
-type Comment = {
-  id: string;
-  source?: string;
-  sourceUrl?: string;
-  name: string;
-  email?: string;
-  text: string;
-  rating: number;
-  createdAt: string;
-  avatar?: { initial: string; color: string };
-};
-const allServices = servicesData.categories.flatMap((category) =>
-  category.services.map((service) => ({ ...service, category: category.name })),
-);
-const categoryImageFallbacks: Record<string, string> = {
-  'Депиляция мужская': '/assets/category-male-waxing.png',
-  'Косметология (уходы и массаж лица)': '/assets/category-cosmetology.png',
-  Маникюр: '/assets/category-manicure.png',
-  'Окрашивание волос без материалов': '/assets/service-20816334.jpg',
-  Педикюр: '/assets/category-pedicure.png',
-  Пирсинг: '/assets/category-piercing.png',
-  Ресницы: '/assets/service-13875928.jpg',
-  'Консультация специалиста': '/assets/salon-1.jpg',
-};
-const getCategoryImage = (category: (typeof servicesData.categories)[number]) =>
-  category.services.find((service) => service.image)?.image ||
-  categoryImageFallbacks[category.name] ||
-  '/assets/salon-1.jpg';
 const salonDescription = `Добро пожаловать в наш эксклюзивный салон красоты, где каждый визит становится настоящим ритуалом ухода и расслабления. Мы понимаем, что для успешных людей время — ценность, поэтому предлагаем высокие стандарты обслуживания, которые соответствуют вашим требованиям и стилю жизни.
 
 Наши профессиональные мастера — это не только высококвалифицированные специалисты, но и настоящие художники своего дела. Каждый из них прошёл тщательный отбор и регулярное обучение, чтобы предоставить Вам услуги, соответствующие самым строгим международным стандартам.
@@ -70,14 +50,6 @@ const portfolio = servicesData.categories.flatMap((category) => {
     .slice(0, 2)
     .map((src, index) => ({ src, alt: `${category.name} — работа ${index + 1}`, size: 'small' }));
 });
-const salonImages = [
-  '/assets/salon-1.jpg',
-  '/assets/salon-2.jpg',
-  '/assets/salon-3.jpg',
-  '/assets/salon-4.jpg',
-  '/assets/salon-5.jpg',
-];
-
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [sent, setSent] = useState(false);
@@ -240,209 +212,34 @@ function App() {
 
   return (
     <main>
-      <header
-        className={`${headerLight ? 'header header-light' : 'header'} flex items-center gap-10 px-[5vw] text-white`}
-      >
-        <a
-          className="brand inline-block whitespace-nowrap text-xl no-underline"
-          href="#top"
-          aria-label="ПРО красоту — на главную"
-        >
-          <span>ПРО</span> красоту
-        </a>
-        <nav className={menuOpen ? 'nav nav-open' : 'nav'} aria-label="Основная навигация">
-          <a href="#services" onClick={() => setMenuOpen(false)}>
-            Услуги
-          </a>
-          <a href="#about" onClick={() => setMenuOpen(false)}>
-            О нас
-          </a>
-          <a href="#portfolio" onClick={() => setMenuOpen(false)}>
-            Портфолио
-          </a>
-          <a href="#masters" onClick={() => setMenuOpen(false)}>
-            Мастера
-          </a>
-          <a href="#contacts" onClick={() => setMenuOpen(false)}>
-            Контакты
-          </a>
-        </nav>
-        <div className="header-phones">
-          <a className="header-phone" href="tel:+375292795108">
-            +375 (29) 279-51-08
-          </a>
-          <a className="header-phone" href="tel:+375296495108">
-            +375 (29) 649-51-08
-          </a>
-        </div>
-        <button
-          className="menu-toggle ml-auto border-0 bg-transparent"
-          aria-label={menuOpen ? 'Закрыть меню' : 'Открыть меню'}
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          {menuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
-      </header>
-
-      <section className="hero flex min-h-[760px] flex-col justify-center px-[12vw] py-[19vh]" id="top">
-        <div className="hero-copy">
-          <p className="eyebrow mb-8 text-[11px] uppercase tracking-[.12em]">Салон красоты · Минск</p>
-          <h1 className="m-0 mb-8 text-[clamp(64px,9vw,138px)] font-medium leading-[.88] tracking-[-.07em]">
-            Красота —<br />
-            <em>это про вас.</em>
-          </h1>
-          <p className="hero-description mb-10 max-w-[300px] text-base leading-[1.6]">
-            Пространство, где забота о себе становится красивой привычкой.
-          </p>
-          <a className="button button-light inline-flex items-center justify-center gap-4" href="#booking">
-            Записаться <ArrowUpRight size={18} />
-          </a>
-        </div>
-        <div className="hero-note">
-          <span>Премиальный уход для всей семьи</span>
-        </div>
-        <a className="scroll-cue" href="#about">
-          <ArrowDown size={16} /> листайте ниже
-        </a>
-      </section>
-
-      <section className="intro section" id="about">
-        <h2 className="intro-heading">
-          Место, где
-          <br />
-          <em>становится легче.</em>
-        </h2>
-        <div className="salon-layout">
-          <div className="salon-carousel">
-            <img src={salonImages[salonImageIndex]} alt={`Интерьер салона ПРО красоту, фото ${salonImageIndex + 1}`} />
-            <div className="salon-carousel-controls">
-              <div className="salon-dots" aria-label="Выбор фотографии салона">
-                {salonImages.map((image, index) => (
-                  <button
-                    key={image}
-                    className={index === salonImageIndex ? 'salon-dot active' : 'salon-dot'}
-                    aria-label={`Показать фото ${index + 1}`}
-                    onClick={() => setSalonImageIndex(index)}
-                  />
-                ))}
-              </div>
-            </div>
-          </div>
-          <div className="salon-copy">
-            <div className={aboutExpanded ? 'salon-description expanded' : 'salon-description'}>
-              {salonDescription.split('\n\n').map((paragraph) => (
-                <p key={paragraph}>{paragraph}</p>
-              ))}
-            </div>
-            <button className="text-link more-button" onClick={() => setAboutExpanded((value) => !value)}>
-              {aboutExpanded ? 'Свернуть' : 'Ещё'} <ArrowUpRight size={17} />
-            </button>
-          </div>
-        </div>
-      </section>
-
-      <section className="services section bg-[#ebe6df]" id="services">
-        <div className="section-top">
-          <p>
-            Найдите свой способ <br />
-            <em>почувствовать себя лучше.</em>
-          </p>
-        </div>
-        <div className="service-category-grid grid grid-cols-2 gap-4 md:grid-cols-3">
-          {servicesData.categories.map((category) => (
-            <button
-              className="service-category-card group overflow-hidden rounded-3xl border border-[#d2c8bb] bg-[#f8f5f0] text-left shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl"
-              key={category.id}
-              onClick={() => setSelectedCategory(category)}
-            >
-              <img
-                className="h-36 w-full object-cover saturate-[.75] transition duration-500 group-hover:scale-105"
-                style={{ objectPosition: category.name === 'Депиляция мужская' ? '50% 35%' : 'center' }}
-                src={getCategoryImage(category)}
-                alt={`Услуги: ${category.name}`}
-              />
-              <span className="service-category-name">{category.name}</span>
-              <span className="service-category-count">
-                <span>{category.services.length} услуг</span>
-                <ArrowUpRight size={18} />
-              </span>
-            </button>
-          ))}
-        </div>
-      </section>
-
-      <section className="statement">
-        <div className="statement-mark">✦</div>
-        <p>
-          Ухоженность —<br />
-          <em>ваша новая роскошь.</em>
-        </p>
-        <span className="statement-caption">PRO KRASOTU · MINSK · 2026</span>
-      </section>
-
-      <section className="masters section bg-[#f4f1ec]" id="masters">
-        <div className="section-top">
-          <p>
-            Наши <em>мастера.</em>
-          </p>
-        </div>
-        <div
-          className="masters-carousel overflow-hidden"
-          onMouseEnter={(event) => event.currentTarget.classList.add('paused')}
-          onMouseLeave={(event) => event.currentTarget.classList.remove('paused')}
-        >
-          <div className="master-track flex w-max gap-4">
-            {visibleMasters.map((master) => (
-              <button className="master-card shrink-0" key={master.id} onClick={() => setSelectedMaster(master)}>
-                <img className="block w-full object-cover" src={master.photo} alt={master.fullName} />
-                <span className="master-role">{master.specialization}</span>
-                <h3>{master.fullName}</h3>
-                <ArrowUpRight size={18} />
-              </button>
-            ))}
-          </div>
-          <div className="carousel-controls">
-            <button
-              className="carousel-button"
-              aria-label="Предыдущие мастера"
-              onClick={() =>
-                setMasterOffset((value) => (value - 1 + mastersData.masters.length) % mastersData.masters.length)
-              }
-            >
-              <ArrowLeft size={18} />
-            </button>
-            <span>Наведите, чтобы остановить</span>
-            <button
-              className="carousel-button"
-              aria-label="Следующие мастера"
-              onClick={() => setMasterOffset((value) => (value + 1) % mastersData.masters.length)}
-            >
-              <ArrowRight size={18} />
-            </button>
-          </div>
-        </div>
-      </section>
-
-      <section className="portfolio section bg-[#d8d0c5]" id="portfolio">
-        <div className="section-top">
-          <p>
-            Вдохновение в каждой <br />
-            <em>детали.</em>
-          </p>
-        </div>
-        <div className="gallery">
-          {portfolio.map((item, index) => (
-            <img
-              className={`${item.size} block h-full w-full object-cover`}
-              key={`${item.alt}-${index}`}
-              src={item.src}
-              alt={item.alt}
-              loading="lazy"
-            />
-          ))}
-        </div>
-      </section>
-
+      `n{' '}
+      <Header
+        light={headerLight}
+        open={menuOpen}
+        onToggle={() => setMenuOpen((value) => !value)}
+        onNavigate={() => setMenuOpen(false)}
+      />
+      `n <HeroSection />
+      `n{' '}
+      <AboutSection
+        images={salonImages}
+        imageIndex={salonImageIndex}
+        expanded={aboutExpanded}
+        description={salonDescription}
+        onImageSelect={setSalonImageIndex}
+        onToggle={() => setAboutExpanded((value) => !value)}
+      />
+      <ServiceCategories categories={servicesData.categories} onSelect={setSelectedCategory} />
+      <StatementSection />{' '}
+      <MastersSection
+        masters={visibleMasters}
+        onSelect={setSelectedMaster}
+        onPrevious={() =>
+          setMasterOffset((value) => (value - 1 + mastersData.masters.length) % mastersData.masters.length)
+        }
+        onNext={() => setMasterOffset((value) => (value + 1) % mastersData.masters.length)}
+      />
+      <PortfolioSection items={portfolio} />
       <section className="reviews section bg-[#eae4db]" id="reviews">
         <div className="section-top">
           <p className="reviews-heading">
@@ -498,7 +295,6 @@ function App() {
           Оставить впечатление <ArrowUpRight size={17} />
         </button>
       </section>
-
       <section className="booking section bg-[#eae4db]" id="booking">
         <div className="booking-copy">
           <h2>
@@ -576,45 +372,7 @@ function App() {
           </form>
         )}
       </section>
-
-      <footer className="footer" id="contacts">
-        <div>
-          <a className="brand" href="#top">
-            <span>ПРО</span> красоту
-          </a>
-          <p>
-            Салон, в который
-            <br />
-            хочется возвращаться.
-          </p>
-        </div>
-        <div>
-          <p className="footer-label">Адрес</p>
-          <p>Минск, ул. Ежи Гедройца, 2</p>
-          <button className="text-link map-link" onClick={() => setMapOpen(true)}>
-            Построить маршрут <ArrowUpRight size={16} />
-          </button>
-        </div>
-        <div>
-          <p className="footer-label">Мы в сети</p>
-          <a className="social" href="#contacts">
-            <Camera size={18} /> Instagram
-          </a>
-          <a className="social" href="#contacts">
-            <Send size={18} /> Telegram
-          </a>
-        </div>
-        <div>
-          <p className="footer-label">Связаться</p>
-          <a className="footer-phone" href="tel:+375292795108">
-            <Phone size={16} /> +375 (29) 279-51-08
-          </a>
-          <a className="footer-phone" href="tel:+375296495108">
-            <Phone size={16} /> +375 (29) 649-51-08
-          </a>
-        </div>
-        <div className="copyright">© 2026 «ПРО красоту»</div>
-      </footer>
+      <Footer onMap={() => setMapOpen(true)} />
       {selectedService && (
         <div className="modal-backdrop" role="presentation" onClick={() => setSelectedService(null)}>
           <div
