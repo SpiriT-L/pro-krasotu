@@ -9,10 +9,27 @@ import path from 'node:path';
 const commentsPath = path.resolve('src/data/comments.json');
 const escapeTelegram = (value: string) => value.replace(/[&<>]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' })[character] || character);
 
+type MiddlewareRequest = {
+  method?: string;
+  url?: string;
+  on: (event: 'data' | 'end', listener: (chunk?: unknown) => void) => void;
+};
+
+type MiddlewareResponse = {
+  statusCode: number;
+  setHeader: (name: string, value: string) => void;
+  end: (body?: string) => void;
+};
+
+type MiddlewareNext = () => void;
+type Middleware = (request: MiddlewareRequest, response: MiddlewareResponse, next: MiddlewareNext) => void;
+type DevServer = { middlewares: { use: (handler: Middleware) => void } };
+type JsonObject = Record<string, unknown>;
+
 function commentsApi() {
   return {
     name: 'comments-api',
-    configureServer(server: { middlewares: { use: (handler: (request: any, response: any, next: () => void) => void) => void } }) {
+    configureServer(server: DevServer) {
       server.middlewares.use(async (request, response, next) => {
         if (!request.url?.startsWith('/api/comments')) { next(); return; }
         response.setHeader('Content-Type', 'application/json; charset=utf-8');
@@ -24,7 +41,7 @@ function commentsApi() {
             request.on('data', (chunk: unknown) => { raw += String(chunk); });
             request.on('end', async () => {
               try {
-                const payload = JSON.parse(raw);
+                const payload = JSON.parse(raw) as JsonObject;
                 if (!payload.name || !payload.email || !payload.text || !payload.rating) { response.statusCode = 400; response.end(JSON.stringify({ error: 'Заполните все поля' })); return; }
                 const comment = { id: `comment-${Date.now()}`, name: String(payload.name).trim(), email: String(payload.email).trim(), text: String(payload.text).trim(), rating: Number(payload.rating), createdAt: new Date().toISOString() };
                 await fs.writeFile(commentsPath, `${JSON.stringify([comment, ...comments], null, 2)}\n`, 'utf8');
@@ -42,7 +59,7 @@ function commentsApi() {
 function bookingApi(telegramToken: string, telegramChatId: string) {
   return {
     name: 'booking-api',
-    configureServer(server: { middlewares: { use: (handler: (request: any, response: any, next: () => void) => void) => void } }) {
+    configureServer(server: DevServer) {
       server.middlewares.use(async (request, response, next) => {
         if (request.url !== '/api/booking' || request.method !== 'POST') { next(); return; }
         response.setHeader('Content-Type', 'application/json; charset=utf-8');
@@ -51,7 +68,7 @@ function bookingApi(telegramToken: string, telegramChatId: string) {
           request.on('data', (chunk: unknown) => { raw += String(chunk); });
           request.on('end', async () => {
             try {
-              const payload = JSON.parse(raw);
+              const payload = JSON.parse(raw) as JsonObject;
               const name = String(payload.name || '').trim();
               const phone = String(payload.phone || '').trim();
               const master = String(payload.master || '').trim();

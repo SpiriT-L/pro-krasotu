@@ -13,10 +13,10 @@ export function Header({ light, open, onToggle, onNavigate }: HeaderProps) {
         <span>ПРО</span> красоту
       </a>
       <nav className={open ? 'nav nav-open' : 'nav'} aria-label="Основная навигация">
-        {['Услуги', 'О нас', 'Портфолио', 'Мастера', 'Контакты'].map((label) => (
+        {['Услуги', 'О нас', 'Портфолио', 'Мастера', 'Контакты', 'Записаться'].map((label) => (
           <a
             key={label}
-            href={`#${label === 'О нас' ? 'about' : label === 'Мастера' ? 'masters' : label === 'Контакты' ? 'contacts' : label === 'Портфолио' ? 'portfolio' : 'services'}`}
+            href={`#${label === 'О нас' ? 'about' : label === 'Мастера' ? 'masters' : label === 'Контакты' ? 'contacts' : label === 'Портфолио' ? 'portfolio' : label === 'Записаться' ? 'booking' : 'services'}`}
             onClick={onNavigate}
           >
             {label}
