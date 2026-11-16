@@ -212,15 +212,13 @@ function App() {
 
   return (
     <main>
-      `n{' '}
       <Header
         light={headerLight}
         open={menuOpen}
         onToggle={() => setMenuOpen((value) => !value)}
         onNavigate={() => setMenuOpen(false)}
       />
-      `n <HeroSection />
-      `n{' '}
+      <HeroSection />
       <AboutSection
         images={salonImages}
         imageIndex={salonImageIndex}
