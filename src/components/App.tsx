@@ -1,4 +1,4 @@
-import { FormEvent, useEffect, useState } from 'react';
+import { FormEvent, MouseEvent, useEffect, useRef, useState } from 'react';
 import { ArrowUpRight, X } from 'lucide-react';
 import '../site.css';
 import '../tailwind.css';
@@ -60,6 +60,82 @@ for (let index = randomizedPortfolio.length - 1; index > 0; index -= 1) {
     randomizedPortfolio[index],
   ];
 }
+
+type BookingOption = { value: string; label: string; price?: string; currency?: string; duration?: number };
+
+function BookingPicker({
+  label,
+  value,
+  placeholder,
+  options,
+  onChange,
+}: {
+  label: string;
+  value: string;
+  placeholder: string;
+  options: BookingOption[];
+  onChange: (value: string) => void;
+}) {
+  const [query, setQuery] = useState('');
+  const pickerRef = useRef<HTMLDetailsElement>(null);
+  const selectedLabel = options.find((option) => option.value === value)?.label;
+  const filteredOptions = options.filter((option) => option.label.toLowerCase().includes(query.toLowerCase()));
+  const selectOption = (event: MouseEvent<HTMLButtonElement>, nextValue: string) => {
+    onChange(nextValue);
+    event.currentTarget.closest('details')?.removeAttribute('open');
+    setQuery('');
+  };
+  useEffect(() => {
+    const handleOutsideClick = (event: globalThis.MouseEvent) => {
+      if (pickerRef.current && !pickerRef.current.contains(event.target as Node))
+        pickerRef.current.removeAttribute('open');
+    };
+    document.addEventListener('mousedown', handleOutsideClick);
+    return () => document.removeEventListener('mousedown', handleOutsideClick);
+  }, []);
+
+  return (
+    <details className="booking-picker" ref={pickerRef}>
+      <summary>
+        <span>{label}</span>
+        <strong>{selectedLabel || placeholder}</strong>
+        <ArrowUpRight size={16} aria-hidden="true" />
+      </summary>
+      <div className="booking-picker-menu">
+        <input
+          aria-label={`Поиск: ${label}`}
+          value={query}
+          onChange={(event) => setQuery(event.target.value)}
+          placeholder="Начните вводить для поиска…"
+        />
+        <div className="booking-picker-options" role="listbox" aria-label={label}>
+          <button type="button" onClick={(event) => selectOption(event, '')}>
+            {placeholder}
+          </button>
+          {filteredOptions.map((option) => (
+            <button
+              type="button"
+              className={option.value === value ? 'is-selected' : ''}
+              key={option.value}
+              onClick={(event) => selectOption(event, option.value)}
+            >
+              <span>{option.label}</span>
+              {(option.price || option.duration) && (
+                <small>
+                  {option.duration ? `${option.duration} мин.` : ''}
+                  {option.duration && option.price ? ' · ' : ''}
+                  {option.price ? `от ${option.price} ${option.currency || 'BYN'}` : ''}
+                </small>
+              )}
+            </button>
+          ))}
+          {!filteredOptions.length && <p>Ничего не найдено</p>}
+        </div>
+      </div>
+    </details>
+  );
+}
+
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [sent, setSent] = useState(false);
@@ -137,7 +213,7 @@ function App() {
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    if (!bookingName.trim() || !bookingPhone.trim() || (!bookingMaster && !bookingService)) return;
+    if (!bookingName.trim() || bookingPhone.length !== 9 || (!bookingMaster && !bookingService)) return;
     setBookingStatus('submitting');
 
     try {
@@ -146,7 +222,7 @@ function App() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           name: bookingName.trim(),
-          phone: bookingPhone.trim(),
+          phone: `+375${bookingPhone}`,
           master: bookingMaster,
           service: bookingService,
         }),
@@ -163,6 +239,20 @@ function App() {
   const visibleMasters = mastersData.masters.map(
     (_, index) => mastersData.masters[(index + masterOffset) % mastersData.masters.length],
   );
+  const masterOptions = mastersData.masters.map((master) => ({ value: master.fullName, label: master.fullName }));
+  const cleanServiceName = (name: string) => name.split(/\s+(?:от\s+\d|цена\b)/i)[0].trim();
+  const serviceOptions = allServices.map((service) => ({
+    value: service.name,
+    label: cleanServiceName(service.name),
+    price: service.price,
+    currency: service.currency,
+    duration: service.durationMinutes,
+  }));
+  const formatPhone = (digits: string) => {
+    if (!digits) return '+375 (';
+    const parts = [digits.slice(0, 2), digits.slice(2, 5), digits.slice(5, 7), digits.slice(7, 9)];
+    return `+375 (${parts[0]}${parts[0].length === 2 ? ')' : ''}${parts[1] ? ` ${parts[1]}` : ''}${parts[2] ? `-${parts[2]}` : ''}${parts[3] ? `-${parts[3]}` : ''}`;
+  };
   const openBooking = (target: string, type: 'master' | 'service') => {
     if (type === 'master') setBookingMaster(target);
     else setBookingService(target);
@@ -333,33 +423,33 @@ function App() {
                 required
                 name="phone"
                 type="tel"
-                value={bookingPhone}
-                onChange={(event) => setBookingPhone(event.target.value)}
+                value={formatPhone(bookingPhone)}
+                onChange={(event) =>
+                  setBookingPhone(event.target.value.replace(/\D/g, '').replace(/^375/, '').slice(0, 9))
+                }
+                inputMode="numeric"
+                pattern="\+375 \(\d{2}\) \d{3}-\d{2}-\d{2}"
                 placeholder="+375 (__) ___-__-__"
+                aria-describedby="booking-phone-hint"
               />
+              <small id="booking-phone-hint" className="booking-field-hint">
+                Введите 9 цифр номера после +375
+              </small>
             </label>
-            <label>
-              Мастер
-              <select name="master" value={bookingMaster} onChange={(event) => setBookingMaster(event.target.value)}>
-                <option value="">Выберите мастера</option>
-                {mastersData.masters.map((master) => (
-                  <option key={master.id} value={master.fullName}>
-                    {master.fullName}
-                  </option>
-                ))}
-              </select>
-            </label>
-            <label>
-              Услуга
-              <select name="service" value={bookingService} onChange={(event) => setBookingService(event.target.value)}>
-                <option value="">Выберите услугу</option>
-                {allServices.map((service) => (
-                  <option key={service.id} value={service.name}>
-                    {service.name}
-                  </option>
-                ))}
-              </select>
-            </label>
+            <BookingPicker
+              label="Мастер"
+              value={bookingMaster}
+              placeholder="Выберите мастера"
+              options={masterOptions}
+              onChange={setBookingMaster}
+            />
+            <BookingPicker
+              label="Услуга"
+              value={bookingService}
+              placeholder="Выберите услугу"
+              options={serviceOptions}
+              onChange={setBookingService}
+            />
             {bookingStatus === 'error' && (
               <p className="form-error" role="alert">
                 Не удалось отправить заявку. Попробуйте ещё раз или позвоните нам.
@@ -371,7 +461,7 @@ function App() {
               disabled={
                 bookingStatus === 'submitting' ||
                 !bookingName.trim() ||
-                !bookingPhone.trim() ||
+                bookingPhone.length !== 9 ||
                 (!bookingMaster && !bookingService)
               }
             >

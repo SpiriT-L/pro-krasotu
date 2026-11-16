@@ -346,6 +346,126 @@ h2 em,
 .booking select:focus {
   border-color: var(--gold);
 }
+.booking-picker {
+  position: relative;
+  border-bottom: 1px solid #b8afa4;
+}
+.booking-picker summary {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px 18px;
+  align-items: center;
+  padding: 4px 0 14px;
+  cursor: pointer;
+  list-style: none;
+}
+.booking-picker summary::-webkit-details-marker {
+  display: none;
+}
+.booking-picker summary span {
+  grid-column: 1 / -1;
+  color: #8c8174;
+  font:
+    10px 'DM Mono',
+    monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.booking-picker summary strong {
+  overflow: hidden;
+  color: var(--ink);
+  font:
+    16px Manrope,
+    sans-serif;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.booking-picker summary > svg {
+  color: var(--gold);
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+}
+.booking-picker[open] summary > svg {
+  transform: rotate(135deg);
+}
+.booking-picker-menu {
+  position: absolute;
+  z-index: 10;
+  top: calc(100% + 10px);
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  border: 1px solid #c5a76f;
+  border-radius: 14px;
+  background: #f8f5ef;
+  box-shadow: 0 18px 40px #211b1426;
+}
+.booking-picker-menu > input {
+  margin: 10px 14px 0;
+  width: calc(100% - 28px);
+  border-bottom-color: #d2c6b6;
+  padding: 10px 0;
+  font-size: 14px;
+}
+.booking-picker-options {
+  display: grid;
+  max-height: min(280px, 38vh);
+  overflow-y: auto;
+  padding: 8px;
+}
+.booking-picker-options button {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  padding: 10px 12px;
+  color: var(--ink);
+  cursor: pointer;
+  font:
+    14px Manrope,
+    sans-serif;
+  text-align: left;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+.booking-picker-options button span {
+  min-width: 0;
+}
+.booking-picker-options button small {
+  flex: 0 0 auto;
+  color: #8c7045;
+  font:
+    11px 'DM Mono',
+    monospace;
+  white-space: nowrap;
+}
+.booking-picker-options button:hover,
+.booking-picker-options button.is-selected {
+  background: #c2a46e;
+  color: #211d18;
+}
+.booking-picker-options p {
+  margin: 12px;
+  color: #8c8174;
+  font:
+    13px Manrope,
+    sans-serif;
+}
+.booking-field-hint {
+  display: block;
+  margin-top: 7px;
+  color: #8c8174;
+  font:
+    10px 'DM Mono',
+    monospace;
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
 .booking form .button {
   align-self: flex-start;
   margin-top: 10px;
