@@ -5,7 +5,7 @@ import '../tailwind.css';
 import servicesData from '../data/services.json';
 import mastersData from '../data/masters.json';
 import commentsData from '../data/comments.json';
-import { allServices, getCategoryImage, salonImages } from '../data/site';
+import { allServices, getCategoryImage, getServiceDisplayName, salonImages } from '../data/site';
 import { Comment, Master, Service } from '../types';
 import { Header } from './Header';
 import { AboutSection } from './AboutSection';
@@ -240,10 +240,9 @@ function App() {
     (_, index) => mastersData.masters[(index + masterOffset) % mastersData.masters.length],
   );
   const masterOptions = mastersData.masters.map((master) => ({ value: master.fullName, label: master.fullName }));
-  const cleanServiceName = (name: string) => name.split(/\s+(?:от\s+\d|цена\b)/i)[0].trim();
   const serviceOptions = allServices.map((service) => ({
     value: service.name,
-    label: cleanServiceName(service.name),
+    label: getServiceDisplayName(service.name),
     price: service.price,
     currency: service.currency,
     duration: service.durationMinutes,
@@ -489,7 +488,7 @@ function App() {
               alt={`Фото услуги ${selectedService.name}`}
             />
             <p className="section-label">{selectedService.category}</p>
-            <h2 id="service-modal-title">{selectedService.name}</h2>
+            <h2 id="service-modal-title">{getServiceDisplayName(selectedService.name)}</h2>
             <p className="modal-meta">
               {selectedService.durationMinutes} мин. · от {selectedService.price} {selectedService.currency}
             </p>
@@ -525,7 +524,7 @@ function App() {
               {selectedCategory.services.map((service) => (
                 <div className="category-service-row" key={service.id}>
                   <div className="category-service-info">
-                    <span>{service.name}</span>
+                    <span>{getServiceDisplayName(service.name)}</span>
                   </div>
                   <div className="category-service-footer">
                     <small>
@@ -574,7 +573,7 @@ function App() {
                     document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' });
                   }}
                 >
-                  {service.name}
+                  {getServiceDisplayName(service.name)}
                   <small>{service.price}</small>
                 </button>
               ))}
