@@ -4,6 +4,13 @@ export const allServices = servicesData.categories.flatMap((category) =>
   category.services.map((service) => ({ ...service, category: category.name })),
 );
 
+export const getServiceDisplayName = (name: string) =>
+  name
+    .replace(/\s*\([^)]*(?:цена|руб|\bр\b|byn|от\s*\d|до\s*\d)[^)]*\)/gi, '')
+    .replace(/\s+(?:цена\b|от\s*\d|до\s*\d)[\s\S]*$/i, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+
 export const categoryImageFallbacks: Record<string, string> = {
   'Депиляция мужская': '/assets/category-male-waxing.png',
   'Косметология (уходы и массаж лица)': '/assets/category-cosmetology.png',
