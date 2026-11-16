@@ -5,9 +5,19 @@ type BookingPayload = {
   service?: unknown;
 };
 
+type ApiRequest = {
+  method?: string;
+  body?: unknown;
+};
+
+type ApiResponse = {
+  status: (code: number) => ApiResponse;
+  json: (body: unknown) => void;
+};
+
 const escapeTelegram = (value: string) => value.replace(/[&<>]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' })[character] || character);
 
-export default async function handler(request: any, response: any) {
+export default async function handler(request: ApiRequest, response: ApiResponse) {
   if (request.method !== 'POST') {
     response.status(405).json({ error: 'Метод не поддерживается' });
     return;
