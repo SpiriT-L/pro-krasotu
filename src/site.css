@@ -1753,6 +1753,10 @@ h2 em,
 .nav a:hover:after {
   right: 0;
 }
+.header-light .nav.nav-open a {
+  color: #f4f1ec;
+  text-shadow: none;
+}
 .menu-toggle {
   border: 1px solid transparent;
   border-radius: 50%;
@@ -2296,6 +2300,32 @@ h2 em,
   color: #211e1a;
   transform: translateY(-2px);
   box-shadow: 0 10px 22px #b59a6a44;
+}
+
+@media (max-width: 600px) {
+  .service-category-card {
+    min-height: 168px;
+    border-radius: 18px;
+  }
+  .service-category-card img {
+    height: 88px !important;
+  }
+  .service-category-name {
+    padding: 12px 14px 4px !important;
+    font-family: Manrope, Arial, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 600;
+    letter-spacing: 0.06em !important;
+    line-height: 1.18 !important;
+    overflow-wrap: anywhere;
+  }
+  .service-category-count {
+    padding: 6px 14px 14px !important;
+    font-family: Manrope, Arial, sans-serif !important;
+    font-size: 11px !important;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+  }
 }
 .salon-carousel-controls button,
 .salon-dot,
